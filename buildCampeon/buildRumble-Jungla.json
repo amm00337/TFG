@@ -1,0 +1,95 @@
+[
+  {
+    "nombre": "Cachorro de Garra ígnea",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/1101.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/2003.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Cría de Caminabrisas",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/1102.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Botas de hechicero",
+    "precio": "1100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3020.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "18 de penetración mágica",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3111.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "25 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Tormento de Liandry",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/6653.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "90 de poder de habilidad",
+      "300 de vida"
+    ]
+  },
+  {
+    "nombre": "Llamasombría",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/4645.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "120 de poder de habilidad",
+      "12 de penetración mágica"
+    ]
+  },
+  {
+    "nombre": "Reloj de arena de Zhonya",
+    "precio": "3250",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3157.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "120 de poder de habilidad",
+      "50 de armadura"
+    ]
+  },
+  {
+    "nombre": "Creagrietas",
+    "precio": "3100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/4633.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "80 de poder de habilidad",
+      "350 de vida",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Florescencia sepulcral",
+    "precio": "2850",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3137.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "70 de poder de habilidad",
+      "30% de penetración mágica",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Morellonomicón",
+    "precio": "2200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3165.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "90 de poder de habilidad",
+      "15 de velocidad de habilidades"
+    ]
+  }
+]

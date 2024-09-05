@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Zyra",
+    "win": "41.86%"
+  },
+  {
+    "nombre": "Karma",
+    "win": "42.86%"
+  },
+  {
+    "nombre": "Poppy",
+    "win": "43.18%"
+  },
+  {
+    "nombre": "Xerath",
+    "win": "44.26%"
+  },
+  {
+    "nombre": "Nami",
+    "win": "45.3%"
+  },
+  {
+    "nombre": "Morgana",
+    "win": "66.67%"
+  },
+  {
+    "nombre": "Yuumi",
+    "win": "63.44%"
+  },
+  {
+    "nombre": "Bard",
+    "win": "58.54%"
+  },
+  {
+    "nombre": "Lulu",
+    "win": "57.5%"
+  },
+  {
+    "nombre": "Brand",
+    "win": "56.25%"
+  }
+]

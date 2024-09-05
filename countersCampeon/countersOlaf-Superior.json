@@ -1,0 +1,222 @@
+[
+  {
+    "nombre": "Nasus",
+    "win": "49.40%"
+  },
+  {
+    "nombre": "Mordekaiser",
+    "win": "51.80%"
+  },
+  {
+    "nombre": "Aatrox",
+    "win": "49.30%"
+  },
+  {
+    "nombre": "Garen",
+    "win": "50.76%"
+  },
+  {
+    "nombre": "Renekton",
+    "win": "49.76%"
+  },
+  {
+    "nombre": "Darius",
+    "win": "49.63%"
+  },
+  {
+    "nombre": "Camille",
+    "win": "44.23%"
+  },
+  {
+    "nombre": "Volibear",
+    "win": "51.86%"
+  },
+  {
+    "nombre": "Jax",
+    "win": "50.70%"
+  },
+  {
+    "nombre": "Jayce",
+    "win": "56.23%"
+  },
+  {
+    "nombre": "Sett",
+    "win": "49.36%"
+  },
+  {
+    "nombre": "Fiora",
+    "win": "48.43%"
+  },
+  {
+    "nombre": "K'Sante",
+    "win": "49.69%"
+  },
+  {
+    "nombre": "Riven",
+    "win": "46.10%"
+  },
+  {
+    "nombre": "Smolder",
+    "win": "59.52%"
+  },
+  {
+    "nombre": "Yone",
+    "win": "52.43%"
+  },
+  {
+    "nombre": "Ornn",
+    "win": "52.57%"
+  },
+  {
+    "nombre": "Urgot",
+    "win": "48.11%"
+  },
+  {
+    "nombre": "Dr. Mundo",
+    "win": "53.83%"
+  },
+  {
+    "nombre": "Gangplank",
+    "win": "55.53%"
+  },
+  {
+    "nombre": "Gnar",
+    "win": "54.52%"
+  },
+  {
+    "nombre": "Tryndamere",
+    "win": "43.13%"
+  },
+  {
+    "nombre": "Illaoi",
+    "win": "55.21%"
+  },
+  {
+    "nombre": "Gragas",
+    "win": "49.01%"
+  },
+  {
+    "nombre": "Gwen",
+    "win": "52.33%"
+  },
+  {
+    "nombre": "Sion",
+    "win": "47.20%"
+  },
+  {
+    "nombre": "Malphite",
+    "win": "49.11%"
+  },
+  {
+    "nombre": "Kennen",
+    "win": "54.87%"
+  },
+  {
+    "nombre": "Shen",
+    "win": "46.91%"
+  },
+  {
+    "nombre": "Vladimir",
+    "win": "50.00%"
+  },
+  {
+    "nombre": "Teemo",
+    "win": "54.15%"
+  },
+  {
+    "nombre": "Yorick",
+    "win": "51.60%"
+  },
+  {
+    "nombre": "Trundle",
+    "win": "44.90%"
+  },
+  {
+    "nombre": "Akali",
+    "win": "44.90%"
+  },
+  {
+    "nombre": "Kled",
+    "win": "39.92%"
+  },
+  {
+    "nombre": "Cho'Gath",
+    "win": "49.33%"
+  },
+  {
+    "nombre": "Pantheon",
+    "win": "46.64%"
+  },
+  {
+    "nombre": "Warwick",
+    "win": "48.20%"
+  },
+  {
+    "nombre": "Aurora",
+    "win": "45.50%"
+  },
+  {
+    "nombre": "Wukong",
+    "win": "52.51%"
+  },
+  {
+    "nombre": "Rumble",
+    "win": "49.77%"
+  },
+  {
+    "nombre": "Irelia",
+    "win": "49.07%"
+  },
+  {
+    "nombre": "Tahm Kench",
+    "win": "51.49%"
+  },
+  {
+    "nombre": "Poppy",
+    "win": "50.79%"
+  },
+  {
+    "nombre": "Kayle",
+    "win": "43.78%"
+  },
+  {
+    "nombre": "Vayne",
+    "win": "48.30%"
+  },
+  {
+    "nombre": "Yasuo",
+    "win": "52.52%"
+  },
+  {
+    "nombre": "Zac",
+    "win": "48.55%"
+  },
+  {
+    "nombre": "Quinn",
+    "win": "50.00%"
+  },
+  {
+    "nombre": "Cassiopeia",
+    "win": "52.17%"
+  },
+  {
+    "nombre": "Singed",
+    "win": "44.25%"
+  },
+  {
+    "nombre": "Udyr",
+    "win": "44.14%"
+  },
+  {
+    "nombre": "Ryze",
+    "win": "45.87%"
+  },
+  {
+    "nombre": "Heimerdinger",
+    "win": "43.48%"
+  },
+  {
+    "nombre": "Sylas",
+    "win": "50.63%"
+  }
+]

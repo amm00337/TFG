@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Cassiopeia",
+    "win": "30.56%"
+  },
+  {
+    "nombre": "Yasuo",
+    "win": "33.93%"
+  },
+  {
+    "nombre": "Yorick",
+    "win": "38.46%"
+  },
+  {
+    "nombre": "Kled",
+    "win": "40%"
+  },
+  {
+    "nombre": "Olaf",
+    "win": "40.43%"
+  },
+  {
+    "nombre": "Singed",
+    "win": "67.65%"
+  },
+  {
+    "nombre": "Tahmkench",
+    "win": "65.71%"
+  },
+  {
+    "nombre": "Chogath",
+    "win": "64.86%"
+  },
+  {
+    "nombre": "Poppy",
+    "win": "60.61%"
+  },
+  {
+    "nombre": "Vladimir",
+    "win": "57.89%"
+  }
+]

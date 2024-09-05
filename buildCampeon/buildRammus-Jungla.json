@@ -1,0 +1,108 @@
+[
+  {
+    "nombre": "Brote de Brincamontes",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1103.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Cría de Caminabrisas",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1102.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Botas blindadas",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3047.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "25 de armadura",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3111.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "20 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Malla de espinas",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3075.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "350 de vida",
+      "70 de armadura"
+    ]
+  },
+  {
+    "nombre": "Égida de fuego solar",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3068.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "350 de vida",
+      "50 de armadura",
+      "10 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Jak'Sho, el Proteico",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6665.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "300 de vida",
+      "50 de armadura",
+      "50 de resistencia mágica"
+    ]
+  },
+  {
+    "nombre": "Coraza del muerto",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3742.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "300 de vida",
+      "45 de armadura",
+      "5% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Fulgor vano",
+    "precio": "2800",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6664.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "450 de vida",
+      "40 de resistencia mágica",
+      "10 de velocidad de habilidades",
+      "100% de regeneración de vida básica"
+    ]
+  },
+  {
+    "nombre": "Presagio de Randuin",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3143.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "350 de vida",
+      "75 de armadura"
+    ]
+  },
+  {
+    "nombre": "Rookern kaénico",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2504.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "400 de vida",
+      "80 de resistencia mágica",
+      "150% de regeneración de vida básica"
+    ]
+  }
+]

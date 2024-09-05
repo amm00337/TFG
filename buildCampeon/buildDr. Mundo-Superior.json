@@ -1,0 +1,99 @@
+[
+  {
+    "nombre": "Escudo de Doran",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1054.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "110 de vida"
+    ]
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Cristal de rubí",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1028.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "150 de vida"
+    ]
+  },
+  {
+    "nombre": "Botas de rapidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3009.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas blindadas",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3047.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "25 de armadura",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Armadura de Warmog",
+    "precio": "3300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3083.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "1000 de vida",
+      "5% de velocidad de movimiento",
+      "100% de regeneración de vida básica"
+    ]
+  },
+  {
+    "nombre": "Corazón de acero",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3084.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "900 de vida",
+      "200% de regeneración de vida básica"
+    ]
+  },
+  {
+    "nombre": "Rostro espiritual",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3065.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "450 de vida",
+      "60 de resistencia mágica",
+      "10 de velocidad de habilidades",
+      "100% de regeneración de vida básica"
+    ]
+  },
+  {
+    "nombre": "Malla de espinas",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3075.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "350 de vida",
+      "70 de armadura"
+    ]
+  },
+  {
+    "nombre": "Hidra titánica",
+    "precio": "3300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3748.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "50 de daño de ataque",
+      "550 de vida"
+    ]
+  },
+  {
+    "nombre": "Égida de fuego solar",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3068.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "350 de vida",
+      "50 de armadura",
+      "10 de velocidad de habilidades"
+    ]
+  }
+]

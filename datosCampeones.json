@@ -1,0 +1,2382 @@
+[
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Jhin.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Jhin",
+    "posicion": "Inferior",
+    "winRate": "52.35%",
+    "pickRate": "28.87%",
+    "banRate": "12.36%",
+    "url": "/champions/jhin/build/adc?type=ranked",
+    "rol": "Tirador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Poppy.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Poppy",
+    "posicion": "Apoyo",
+    "winRate": "53.26%",
+    "pickRate": "3.74%",
+    "banRate": "2.64%",
+    "url": "/champions/poppy/build/support?type=ranked",
+    "rol": "Tanque / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Amumu.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Amumu",
+    "posicion": "Jungla",
+    "winRate": "52.44%",
+    "pickRate": "8.00%",
+    "banRate": "7.01%",
+    "url": "/champions/amumu/build/jungle?type=ranked",
+    "rol": "Tanque / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Udyr.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Udyr",
+    "posicion": "Jungla",
+    "winRate": "52.35%",
+    "pickRate": "4.51%",
+    "banRate": "6.22%",
+    "url": "/champions/udyr/build/jungle?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Sylas.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Sylas",
+    "posicion": "Medio",
+    "winRate": "52.30%",
+    "pickRate": "7.96%",
+    "banRate": "6.85%",
+    "url": "/champions/sylas/build/mid?type=ranked",
+    "rol": "Mago / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Nocturne.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Nocturne",
+    "posicion": "Jungla",
+    "winRate": "52.19%",
+    "pickRate": "5.96%",
+    "banRate": "7.18%",
+    "url": "/champions/nocturne/build/jungle?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Senna.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Senna",
+    "posicion": "Apoyo",
+    "winRate": "52.16%",
+    "pickRate": "14.41%",
+    "banRate": "20.59%",
+    "url": "/champions/senna/build/support?type=ranked",
+    "rol": "Asistencia / Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Lissandra.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Lissandra",
+    "posicion": "Medio",
+    "winRate": "52.16%",
+    "pickRate": "6.63%",
+    "banRate": "3.42%",
+    "url": "/champions/lissandra/build/mid?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Nami.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Nami",
+    "posicion": "Apoyo",
+    "winRate": "52.14%",
+    "pickRate": "10.41%",
+    "banRate": "1.10%",
+    "url": "/champions/nami/build/support?type=ranked",
+    "rol": "Asistencia / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Camille.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Camille",
+    "posicion": "Superior",
+    "winRate": "51.89%",
+    "pickRate": "6.21%",
+    "banRate": "4.79%",
+    "url": "/champions/camille/build/top?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/MissFortune.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Miss Fortune",
+    "posicion": "Inferior",
+    "winRate": "51.85%",
+    "pickRate": "16.55%",
+    "banRate": "10.10%",
+    "url": "/champions/missfortune/build/adc?type=ranked",
+    "rol": "Tirador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Sett.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Sett",
+    "posicion": "Superior",
+    "winRate": "51.64%",
+    "pickRate": "5.89%",
+    "banRate": "2.30%",
+    "url": "/champions/sett/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Mordekaiser.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Mordekaiser",
+    "posicion": "Superior",
+    "winRate": "51.55%",
+    "pickRate": "6.03%",
+    "banRate": "7.76%",
+    "url": "/champions/mordekaiser/build/top?type=ranked",
+    "rol": "Luchador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Khazix.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Kha'Zix",
+    "posicion": "Jungla",
+    "winRate": "51.51%",
+    "pickRate": "10.53%",
+    "banRate": "10.71%",
+    "url": "/champions/khazix/build/jungle?type=ranked",
+    "rol": "Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Garen.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Garen",
+    "posicion": "Superior",
+    "winRate": "51.38%",
+    "pickRate": "9.67%",
+    "banRate": "7.18%",
+    "url": "/champions/garen/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Lillia.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Lillia",
+    "posicion": "Jungla",
+    "winRate": "51.17%",
+    "pickRate": "10.03%",
+    "banRate": "26.88%",
+    "url": "/champions/lillia/build/jungle?type=ranked",
+    "rol": "Luchador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Nasus.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Nasus",
+    "posicion": "Superior",
+    "winRate": "50.84%",
+    "pickRate": "9.10%",
+    "banRate": "13.66%",
+    "url": "/champions/nasus/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Darius.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Darius",
+    "posicion": "Superior",
+    "winRate": "50.72%",
+    "pickRate": "7.44%",
+    "banRate": "15.71%",
+    "url": "/champions/darius/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Aatrox.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Aatrox",
+    "posicion": "Superior",
+    "winRate": "50.60%",
+    "pickRate": "11.91%",
+    "banRate": "17.40%",
+    "url": "/champions/aatrox/build/top?type=ranked",
+    "rol": "Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Kaisa.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Kai'Sa",
+    "posicion": "Inferior",
+    "winRate": "50.50%",
+    "pickRate": "20.60%",
+    "banRate": "6.22%",
+    "url": "/champions/kaisa/build/adc?type=ranked",
+    "rol": "Tirador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Zed.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Zed",
+    "posicion": "Medio",
+    "winRate": "50.30%",
+    "pickRate": "8.62%",
+    "banRate": "20.68%",
+    "url": "/champions/zed/build/mid?type=ranked",
+    "rol": "Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/LeeSin.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Lee Sin",
+    "posicion": "Jungla",
+    "winRate": "49.83%",
+    "pickRate": "18.11%",
+    "banRate": "15.08%",
+    "url": "/champions/leesin/build/jungle?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Warwick.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Warwick",
+    "posicion": "Superior",
+    "winRate": "52.80%",
+    "pickRate": "1.68%",
+    "banRate": "0.50%",
+    "url": "/champions/warwick/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Galio.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Galio",
+    "posicion": "Medio",
+    "winRate": "52.71%",
+    "pickRate": "3.07%",
+    "banRate": "1.01%",
+    "url": "/champions/galio/build/mid?type=ranked",
+    "rol": "Tanque / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Seraphine.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Seraphine",
+    "posicion": "Inferior",
+    "winRate": "52.70%",
+    "pickRate": "1.32%",
+    "banRate": "0.62%",
+    "url": "/champions/seraphine/build/adc?type=ranked",
+    "rol": "Asistencia / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/KogMaw.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Kog'Maw",
+    "posicion": "Inferior",
+    "winRate": "52.52%",
+    "pickRate": "2.07%",
+    "banRate": "0.71%",
+    "url": "/champions/kogmaw/build/adc?type=ranked",
+    "rol": "Tirador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Vex.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Vex",
+    "posicion": "Medio",
+    "winRate": "52.49%",
+    "pickRate": "3.42%",
+    "banRate": "4.05%",
+    "url": "/champions/vex/build/mid?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Janna.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Janna",
+    "posicion": "Apoyo",
+    "winRate": "52.29%",
+    "pickRate": "4.44%",
+    "banRate": "1.69%",
+    "url": "/champions/janna/build/support?type=ranked",
+    "rol": "Asistencia / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Warwick.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Warwick",
+    "posicion": "Jungla",
+    "winRate": "52.27%",
+    "pickRate": "2.96%",
+    "banRate": "0.89%",
+    "url": "/champions/warwick/build/jungle?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Urgot.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Urgot",
+    "posicion": "Superior",
+    "winRate": "52.09%",
+    "pickRate": "2.42%",
+    "banRate": "0.53%",
+    "url": "/champions/urgot/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Tryndamere.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Tryndamere",
+    "posicion": "Superior",
+    "winRate": "51.74%",
+    "pickRate": "2.97%",
+    "banRate": "2.44%",
+    "url": "/champions/tryndamere/build/top?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Pyke.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Pyke",
+    "posicion": "Apoyo",
+    "winRate": "51.61%",
+    "pickRate": "7.28%",
+    "banRate": "24.42%",
+    "url": "/champions/pyke/build/support?type=ranked",
+    "rol": "Asistencia / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Volibear.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Volibear",
+    "posicion": "Jungla",
+    "winRate": "51.58%",
+    "pickRate": "3.11%",
+    "banRate": "2.42%",
+    "url": "/champions/volibear/build/jungle?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Twitch.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Twitch",
+    "posicion": "Inferior",
+    "winRate": "51.44%",
+    "pickRate": "3.18%",
+    "banRate": "2.26%",
+    "url": "/champions/twitch/build/adc?type=ranked",
+    "rol": "Tirador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Briar.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Briar",
+    "posicion": "Jungla",
+    "winRate": "51.44%",
+    "pickRate": "3.86%",
+    "banRate": "5.61%",
+    "url": "/champions/briar/build/jungle?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/XinZhao.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Xin Zhao",
+    "posicion": "Jungla",
+    "winRate": "51.42%",
+    "pickRate": "3.17%",
+    "banRate": "0.58%",
+    "url": "/champions/xinzhao/build/jungle?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Belveth.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Bel'Veth",
+    "posicion": "Jungla",
+    "winRate": "51.42%",
+    "pickRate": "2.50%",
+    "banRate": "5.34%",
+    "url": "/champions/belveth/build/jungle?type=ranked",
+    "rol": "Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Xerath.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Xerath",
+    "posicion": "Apoyo",
+    "winRate": "51.38%",
+    "pickRate": "4.86%",
+    "banRate": "3.18%",
+    "url": "/champions/xerath/build/support?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Milio.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Milio",
+    "posicion": "Apoyo",
+    "winRate": "51.38%",
+    "pickRate": "6.43%",
+    "banRate": "3.86%",
+    "url": "/champions/milio/build/support?type=ranked",
+    "rol": "Asistencia / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Volibear.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Volibear",
+    "posicion": "Superior",
+    "winRate": "51.29%",
+    "pickRate": "4.74%",
+    "banRate": "3.69%",
+    "url": "/champions/volibear/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Shaco.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Shaco",
+    "posicion": "Jungla",
+    "winRate": "51.19%",
+    "pickRate": "5.00%",
+    "banRate": "15.98%",
+    "url": "/champions/shaco/build/jungle?type=ranked",
+    "rol": "Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Draven.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Draven",
+    "posicion": "Inferior",
+    "winRate": "51.17%",
+    "pickRate": "5.26%",
+    "banRate": "22.80%",
+    "url": "/champions/draven/build/adc?type=ranked",
+    "rol": "Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Aurora.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Aurora",
+    "posicion": "Medio",
+    "winRate": "51.16%",
+    "pickRate": "4.77%",
+    "banRate": "26.93%",
+    "url": "/champions/aurora/build/mid?type=ranked",
+    "rol": "Mago / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/MasterYi.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Maestro Yi",
+    "posicion": "Jungla",
+    "winRate": "51.14%",
+    "pickRate": "4.27%",
+    "banRate": "7.12%",
+    "url": "/champions/masteryi/build/jungle?type=ranked",
+    "rol": "Asesino / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Illaoi.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Illaoi",
+    "posicion": "Superior",
+    "winRate": "51.11%",
+    "pickRate": "3.71%",
+    "banRate": "8.41%",
+    "url": "/champions/illaoi/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Fiora.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Fiora",
+    "posicion": "Superior",
+    "winRate": "51.09%",
+    "pickRate": "4.45%",
+    "banRate": "7.26%",
+    "url": "/champions/fiora/build/top?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Hwei.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Hwei",
+    "posicion": "Medio",
+    "winRate": "51.02%",
+    "pickRate": "6.52%",
+    "banRate": "6.64%",
+    "url": "/champions/hwei/build/mid?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Gwen.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Gwen",
+    "posicion": "Superior",
+    "winRate": "51.00%",
+    "pickRate": "3.58%",
+    "banRate": "1.91%",
+    "url": "/champions/gwen/build/top?type=ranked",
+    "rol": "Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Syndra.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Syndra",
+    "posicion": "Medio",
+    "winRate": "50.94%",
+    "pickRate": "5.35%",
+    "banRate": "2.28%",
+    "url": "/champions/syndra/build/mid?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/JarvanIV.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Jarvan IV",
+    "posicion": "Jungla",
+    "winRate": "50.93%",
+    "pickRate": "6.12%",
+    "banRate": "1.23%",
+    "url": "/champions/jarvaniv/build/jungle?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Ziggs.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Ziggs",
+    "posicion": "Inferior",
+    "winRate": "50.91%",
+    "pickRate": "4.66%",
+    "banRate": "1.89%",
+    "url": "/champions/ziggs/build/adc?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Riven.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Riven",
+    "posicion": "Superior",
+    "winRate": "50.90%",
+    "pickRate": "4.27%",
+    "banRate": "1.44%",
+    "url": "/champions/riven/build/top?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Ornn.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Ornn",
+    "posicion": "Superior",
+    "winRate": "50.82%",
+    "pickRate": "3.81%",
+    "banRate": "0.50%",
+    "url": "/champions/ornn/build/top?type=ranked",
+    "rol": "Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Ahri.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Ahri",
+    "posicion": "Medio",
+    "winRate": "50.73%",
+    "pickRate": "6.12%",
+    "banRate": "2.84%",
+    "url": "/champions/ahri/build/mid?type=ranked",
+    "rol": "Mago / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Leona.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Leona",
+    "posicion": "Apoyo",
+    "winRate": "50.73%",
+    "pickRate": "9.95%",
+    "banRate": "22.06%",
+    "url": "/champions/leona/build/support?type=ranked",
+    "rol": "Tanque / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Hecarim.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Hecarim",
+    "posicion": "Jungla",
+    "winRate": "50.72%",
+    "pickRate": "5.54%",
+    "banRate": "5.89%",
+    "url": "/champions/hecarim/build/jungle?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Kayn.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Kayn",
+    "posicion": "Jungla",
+    "winRate": "50.71%",
+    "pickRate": "6.23%",
+    "banRate": "4.42%",
+    "url": "/champions/kayn/build/jungle?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Ekko.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Ekko",
+    "posicion": "Jungla",
+    "winRate": "50.60%",
+    "pickRate": "4.20%",
+    "banRate": "0.87%",
+    "url": "/champions/ekko/build/jungle?type=ranked",
+    "rol": "Asesino / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Jinx.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Jinx",
+    "posicion": "Inferior",
+    "winRate": "50.60%",
+    "pickRate": "10.74%",
+    "banRate": "1.21%",
+    "url": "/champions/jinx/build/adc?type=ranked",
+    "rol": "Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Lucian.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Lucian",
+    "posicion": "Inferior",
+    "winRate": "50.45%",
+    "pickRate": "8.40%",
+    "banRate": "1.66%",
+    "url": "/champions/lucian/build/adc?type=ranked",
+    "rol": "Tirador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Lulu.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Lulu",
+    "posicion": "Apoyo",
+    "winRate": "50.38%",
+    "pickRate": "8.38%",
+    "banRate": "6.30%",
+    "url": "/champions/lulu/build/support?type=ranked",
+    "rol": "Asistencia / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Karma.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Karma",
+    "posicion": "Apoyo",
+    "winRate": "50.31%",
+    "pickRate": "7.85%",
+    "banRate": "2.62%",
+    "url": "/champions/karma/build/support?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Thresh.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Thresh",
+    "posicion": "Apoyo",
+    "winRate": "50.28%",
+    "pickRate": "12.78%",
+    "banRate": "4.32%",
+    "url": "/champions/thresh/build/support?type=ranked",
+    "rol": "Asistencia / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Renekton.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Renekton",
+    "posicion": "Superior",
+    "winRate": "50.23%",
+    "pickRate": "6.51%",
+    "banRate": "4.27%",
+    "url": "/champions/renekton/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Leblanc.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "LeBlanc",
+    "posicion": "Medio",
+    "winRate": "49.95%",
+    "pickRate": "6.75%",
+    "banRate": "25.73%",
+    "url": "/champions/leblanc/build/mid?type=ranked",
+    "rol": "Asesino / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Viego.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Viego",
+    "posicion": "Jungla",
+    "winRate": "49.88%",
+    "pickRate": "10.52%",
+    "banRate": "4.53%",
+    "url": "/champions/viego/build/jungle?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Caitlyn.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Caitlyn",
+    "posicion": "Inferior",
+    "winRate": "49.29%",
+    "pickRate": "14.61%",
+    "banRate": "14.83%",
+    "url": "/champions/caitlyn/build/adc?type=ranked",
+    "rol": "Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Smolder.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Smolder",
+    "posicion": "Inferior",
+    "winRate": "49.01%",
+    "pickRate": "13.31%",
+    "banRate": "12.37%",
+    "url": "/champions/smolder/build/adc?type=ranked",
+    "rol": "Tirador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Quinn.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Quinn",
+    "posicion": "Medio",
+    "winRate": "54.09%",
+    "pickRate": "0.68%",
+    "banRate": "0.41%",
+    "url": "/champions/quinn/build/mid?type=ranked",
+    "rol": "Tirador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Cassiopeia.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Cassiopeia",
+    "posicion": "Superior",
+    "winRate": "53.69%",
+    "pickRate": "0.68%",
+    "banRate": "0.44%",
+    "url": "/champions/cassiopeia/build/top?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Garen.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Garen",
+    "posicion": "Medio",
+    "winRate": "53.37%",
+    "pickRate": "1.83%",
+    "banRate": "1.37%",
+    "url": "/champions/garen/build/mid?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Naafiri.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Naafiri",
+    "posicion": "Medio",
+    "winRate": "53.15%",
+    "pickRate": "2.05%",
+    "banRate": "1.67%",
+    "url": "/champions/naafiri/build/mid?type=ranked",
+    "rol": "Asesino / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Anivia.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Anivia",
+    "posicion": "Medio",
+    "winRate": "52.96%",
+    "pickRate": "2.16%",
+    "banRate": "1.40%",
+    "url": "/champions/anivia/build/mid?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Cassiopeia.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Cassiopeia",
+    "posicion": "Medio",
+    "winRate": "52.90%",
+    "pickRate": "1.67%",
+    "banRate": "1.08%",
+    "url": "/champions/cassiopeia/build/mid?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Taric.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Taric",
+    "posicion": "Apoyo",
+    "winRate": "52.90%",
+    "pickRate": "1.48%",
+    "banRate": "0.30%",
+    "url": "/champions/taric/build/support?type=ranked",
+    "rol": "Asistencia / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Quinn.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Quinn",
+    "posicion": "Superior",
+    "winRate": "52.52%",
+    "pickRate": "1.44%",
+    "banRate": "0.86%",
+    "url": "/champions/quinn/build/top?type=ranked",
+    "rol": "Tirador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Zac.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Zac",
+    "posicion": "Superior",
+    "winRate": "52.33%",
+    "pickRate": "1.21%",
+    "banRate": "0.62%",
+    "url": "/champions/zac/build/top?type=ranked",
+    "rol": "Tanque / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Poppy.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Poppy",
+    "posicion": "Superior",
+    "winRate": "52.21%",
+    "pickRate": "1.70%",
+    "banRate": "1.21%",
+    "url": "/champions/poppy/build/top?type=ranked",
+    "rol": "Tanque / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Brand.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Brand",
+    "posicion": "Inferior",
+    "winRate": "52.07%",
+    "pickRate": "0.84%",
+    "banRate": "0.82%",
+    "url": "/champions/brand/build/adc?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/AurelionSol.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Aurelion Sol",
+    "posicion": "Medio",
+    "winRate": "51.93%",
+    "pickRate": "2.81%",
+    "banRate": "1.18%",
+    "url": "/champions/aurelionsol/build/mid?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Kled.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Kled",
+    "posicion": "Superior",
+    "winRate": "51.90%",
+    "pickRate": "1.75%",
+    "banRate": "0.79%",
+    "url": "/champions/kled/build/top?type=ranked",
+    "rol": "Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Taliyah.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Taliyah",
+    "posicion": "Medio",
+    "winRate": "51.89%",
+    "pickRate": "1.48%",
+    "banRate": "0.65%",
+    "url": "/champions/taliyah/build/mid?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Zoe.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Zoe",
+    "posicion": "Medio",
+    "winRate": "51.80%",
+    "pickRate": "2.32%",
+    "banRate": "0.87%",
+    "url": "/champions/zoe/build/mid?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Nilah.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Nilah",
+    "posicion": "Inferior",
+    "winRate": "51.74%",
+    "pickRate": "1.59%",
+    "banRate": "2.15%",
+    "url": "/champions/nilah/build/adc?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/RekSai.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Rek'Sai",
+    "posicion": "Jungla",
+    "winRate": "51.74%",
+    "pickRate": "1.65%",
+    "banRate": "0.97%",
+    "url": "/champions/reksai/build/jungle?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Diana.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Diana",
+    "posicion": "Medio",
+    "winRate": "51.74%",
+    "pickRate": "2.62%",
+    "banRate": "0.80%",
+    "url": "/champions/diana/build/mid?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/TwistedFate.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Twisted Fate",
+    "posicion": "Medio",
+    "winRate": "51.74%",
+    "pickRate": "3.25%",
+    "banRate": "0.44%",
+    "url": "/champions/twistedfate/build/mid?type=ranked",
+    "rol": "Mago / Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Ekko.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Ekko",
+    "posicion": "Medio",
+    "winRate": "51.70%",
+    "pickRate": "2.15%",
+    "banRate": "0.45%",
+    "url": "/champions/ekko/build/mid?type=ranked",
+    "rol": "Asesino / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Singed.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Singed",
+    "posicion": "Superior",
+    "winRate": "51.60%",
+    "pickRate": "1.32%",
+    "banRate": "0.21%",
+    "url": "/champions/singed/build/top?type=ranked",
+    "rol": "Tanque / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Shaco.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Shaco",
+    "posicion": "Apoyo",
+    "winRate": "51.56%",
+    "pickRate": "1.46%",
+    "banRate": "4.64%",
+    "url": "/champions/shaco/build/support?type=ranked",
+    "rol": "Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Ryze.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Ryze",
+    "posicion": "Superior",
+    "winRate": "51.52%",
+    "pickRate": "1.07%",
+    "banRate": "0.11%",
+    "url": "/champions/ryze/build/top?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/TahmKench.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Tahm Kench",
+    "posicion": "Superior",
+    "winRate": "51.48%",
+    "pickRate": "2.36%",
+    "banRate": "0.69%",
+    "url": "/champions/tahmkench/build/top?type=ranked",
+    "rol": "Tanque / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Qiyana.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Qiyana",
+    "posicion": "Medio",
+    "winRate": "51.47%",
+    "pickRate": "2.16%",
+    "banRate": "0.63%",
+    "url": "/champions/qiyana/build/mid?type=ranked",
+    "rol": "Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Chogath.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Cho'Gath",
+    "posicion": "Superior",
+    "winRate": "51.44%",
+    "pickRate": "2.27%",
+    "banRate": "0.30%",
+    "url": "/champions/chogath/build/top?type=ranked",
+    "rol": "Tanque / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Xerath.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Xerath",
+    "posicion": "Medio",
+    "winRate": "51.31%",
+    "pickRate": "3.18%",
+    "banRate": "2.10%",
+    "url": "/champions/xerath/build/mid?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Sona.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Sona",
+    "posicion": "Apoyo",
+    "winRate": "51.29%",
+    "pickRate": "2.28%",
+    "banRate": "0.10%",
+    "url": "/champions/sona/build/support?type=ranked",
+    "rol": "Asistencia / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Shen.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Shen",
+    "posicion": "Superior",
+    "winRate": "51.28%",
+    "pickRate": "2.29%",
+    "banRate": "0.21%",
+    "url": "/champions/shen/build/top?type=ranked",
+    "rol": "Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Ryze.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Ryze",
+    "posicion": "Medio",
+    "winRate": "51.28%",
+    "pickRate": "2.84%",
+    "banRate": "0.29%",
+    "url": "/champions/ryze/build/mid?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Vladimir.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Vladimir",
+    "posicion": "Medio",
+    "winRate": "51.25%",
+    "pickRate": "3.81%",
+    "banRate": "3.30%",
+    "url": "/champions/vladimir/build/mid?type=ranked",
+    "rol": "Mago / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Gwen.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Gwen",
+    "posicion": "Jungla",
+    "winRate": "51.16%",
+    "pickRate": "1.73%",
+    "banRate": "0.93%",
+    "url": "/champions/gwen/build/jungle?type=ranked",
+    "rol": "Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Kayle.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Kayle",
+    "posicion": "Superior",
+    "winRate": "51.11%",
+    "pickRate": "1.89%",
+    "banRate": "0.76%",
+    "url": "/champions/kayle/build/top?type=ranked",
+    "rol": "Mago / Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Fizz.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Fizz",
+    "posicion": "Medio",
+    "winRate": "51.07%",
+    "pickRate": "3.15%",
+    "banRate": "4.24%",
+    "url": "/champions/fizz/build/mid?type=ranked",
+    "rol": "Asesino / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Skarner.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Skarner",
+    "posicion": "Jungla",
+    "winRate": "51.03%",
+    "pickRate": "1.71%",
+    "banRate": "1.10%",
+    "url": "/champions/skarner/build/jungle?type=ranked",
+    "rol": "Tanque / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Soraka.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Soraka",
+    "posicion": "Apoyo",
+    "winRate": "51.01%",
+    "pickRate": "4.47%",
+    "banRate": "1.49%",
+    "url": "/champions/soraka/build/support?type=ranked",
+    "rol": "Asistencia / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Fiddlesticks.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Fiddlesticks",
+    "posicion": "Jungla",
+    "winRate": "50.98%",
+    "pickRate": "2.66%",
+    "banRate": "1.51%",
+    "url": "/champions/fiddlesticks/build/jungle?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Veigar.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Veigar",
+    "posicion": "Medio",
+    "winRate": "50.97%",
+    "pickRate": "3.04%",
+    "banRate": "0.62%",
+    "url": "/champions/veigar/build/mid?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Talon.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Talon",
+    "posicion": "Medio",
+    "winRate": "50.95%",
+    "pickRate": "2.70%",
+    "banRate": "0.73%",
+    "url": "/champions/talon/build/mid?type=ranked",
+    "rol": "Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Viktor.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Viktor",
+    "posicion": "Medio",
+    "winRate": "50.88%",
+    "pickRate": "2.88%",
+    "banRate": "0.83%",
+    "url": "/champions/viktor/build/mid?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Ivern.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Ivern",
+    "posicion": "Jungla",
+    "winRate": "50.88%",
+    "pickRate": "1.60%",
+    "banRate": "0.82%",
+    "url": "/champions/ivern/build/jungle?type=ranked",
+    "rol": "Asistencia / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Nunu.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Nunu y Willump",
+    "posicion": "Jungla",
+    "winRate": "50.87%",
+    "pickRate": "2.65%",
+    "banRate": "0.46%",
+    "url": "/champions/nunu/build/jungle?type=ranked",
+    "rol": "Tanque / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Lux.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Lux",
+    "posicion": "Medio",
+    "winRate": "50.80%",
+    "pickRate": "4.14%",
+    "banRate": "1.44%",
+    "url": "/champions/lux/build/mid?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Yorick.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Yorick",
+    "posicion": "Superior",
+    "winRate": "50.75%",
+    "pickRate": "3.21%",
+    "banRate": "3.55%",
+    "url": "/champions/yorick/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Aurora.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Aurora",
+    "posicion": "Superior",
+    "winRate": "50.75%",
+    "pickRate": "2.06%",
+    "banRate": "11.55%",
+    "url": "/champions/aurora/build/top?type=ranked",
+    "rol": "Mago / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Rell.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Rell",
+    "posicion": "Apoyo",
+    "winRate": "50.68%",
+    "pickRate": "5.62%",
+    "banRate": "2.79%",
+    "url": "/champions/rell/build/support?type=ranked",
+    "rol": "Tanque / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Olaf.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Olaf",
+    "posicion": "Superior",
+    "winRate": "50.60%",
+    "pickRate": "1.81%",
+    "banRate": "1.12%",
+    "url": "/champions/olaf/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Vladimir.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Vladimir",
+    "posicion": "Superior",
+    "winRate": "50.59%",
+    "pickRate": "3.03%",
+    "banRate": "2.61%",
+    "url": "/champions/vladimir/build/top?type=ranked",
+    "rol": "Mago / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Pantheon.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Pantheon",
+    "posicion": "Superior",
+    "winRate": "50.55%",
+    "pickRate": "2.21%",
+    "banRate": "0.66%",
+    "url": "/champions/pantheon/build/top?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Rammus.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Rammus",
+    "posicion": "Jungla",
+    "winRate": "50.45%",
+    "pickRate": "1.57%",
+    "banRate": "3.46%",
+    "url": "/champions/rammus/build/jungle?type=ranked",
+    "rol": "Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Bard.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Bardo",
+    "posicion": "Apoyo",
+    "winRate": "50.44%",
+    "pickRate": "3.87%",
+    "banRate": "0.42%",
+    "url": "/champions/bard/build/support?type=ranked",
+    "rol": "Asistencia / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Akali.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Akali",
+    "posicion": "Medio",
+    "winRate": "50.39%",
+    "pickRate": "4.72%",
+    "banRate": "6.34%",
+    "url": "/champions/akali/build/mid?type=ranked",
+    "rol": "Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Malzahar.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Malzahar",
+    "posicion": "Medio",
+    "winRate": "50.37%",
+    "pickRate": "3.41%",
+    "banRate": "3.72%",
+    "url": "/champions/malzahar/build/mid?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Kennen.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Kennen",
+    "posicion": "Superior",
+    "winRate": "50.33%",
+    "pickRate": "2.23%",
+    "banRate": "1.32%",
+    "url": "/champions/kennen/build/top?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Taliyah.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Taliyah",
+    "posicion": "Jungla",
+    "winRate": "50.25%",
+    "pickRate": "1.67%",
+    "banRate": "0.74%",
+    "url": "/champions/taliyah/build/jungle?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Orianna.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Orianna",
+    "posicion": "Medio",
+    "winRate": "50.24%",
+    "pickRate": "3.99%",
+    "banRate": "0.69%",
+    "url": "/champions/orianna/build/mid?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Elise.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Elise",
+    "posicion": "Jungla",
+    "winRate": "50.24%",
+    "pickRate": "2.38%",
+    "banRate": "1.02%",
+    "url": "/champions/elise/build/jungle?type=ranked",
+    "rol": "Asesino / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Shyvana.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Shyvana",
+    "posicion": "Jungla",
+    "winRate": "50.23%",
+    "pickRate": "3.80%",
+    "banRate": "4.40%",
+    "url": "/champions/shyvana/build/jungle?type=ranked",
+    "rol": "Luchador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Seraphine.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Seraphine",
+    "posicion": "Apoyo",
+    "winRate": "50.18%",
+    "pickRate": "6.06%",
+    "banRate": "2.80%",
+    "url": "/champions/seraphine/build/support?type=ranked",
+    "rol": "Asistencia / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Malphite.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Malphite",
+    "posicion": "Superior",
+    "winRate": "50.16%",
+    "pickRate": "3.95%",
+    "banRate": "5.58%",
+    "url": "/champions/malphite/build/top?type=ranked",
+    "rol": "Tanque / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Gragas.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Gragas",
+    "posicion": "Superior",
+    "winRate": "50.11%",
+    "pickRate": "2.45%",
+    "banRate": "0.80%",
+    "url": "/champions/gragas/build/top?type=ranked",
+    "rol": "Luchador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Irelia.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Irelia",
+    "posicion": "Medio",
+    "winRate": "50.11%",
+    "pickRate": "2.67%",
+    "banRate": "4.24%",
+    "url": "/champions/irelia/build/mid?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/MonkeyKing.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Wukong",
+    "posicion": "Jungla",
+    "winRate": "50.10%",
+    "pickRate": "2.50%",
+    "banRate": "0.29%",
+    "url": "/champions/monkeyking/build/jungle?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Braum.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Braum",
+    "posicion": "Apoyo",
+    "winRate": "50.08%",
+    "pickRate": "5.55%",
+    "banRate": "4.49%",
+    "url": "/champions/braum/build/support?type=ranked",
+    "rol": "Tanque / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Talon.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Talon",
+    "posicion": "Jungla",
+    "winRate": "50.08%",
+    "pickRate": "1.63%",
+    "banRate": "0.44%",
+    "url": "/champions/talon/build/jungle?type=ranked",
+    "rol": "Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Evelynn.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Evelynn",
+    "posicion": "Jungla",
+    "winRate": "50.08%",
+    "pickRate": "2.42%",
+    "banRate": "4.38%",
+    "url": "/champions/evelynn/build/jungle?type=ranked",
+    "rol": "Asesino / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Blitzcrank.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Blitzcrank",
+    "posicion": "Apoyo",
+    "winRate": "50.01%",
+    "pickRate": "6.54%",
+    "banRate": "20.12%",
+    "url": "/champions/blitzcrank/build/support?type=ranked",
+    "rol": "Tanque / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Zac.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Zac",
+    "posicion": "Jungla",
+    "winRate": "50.00%",
+    "pickRate": "3.31%",
+    "banRate": "1.70%",
+    "url": "/champions/zac/build/jungle?type=ranked",
+    "rol": "Tanque / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Diana.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Diana",
+    "posicion": "Jungla",
+    "winRate": "49.91%",
+    "pickRate": "5.17%",
+    "banRate": "1.58%",
+    "url": "/champions/diana/build/jungle?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Ashe.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Ashe",
+    "posicion": "Inferior",
+    "winRate": "49.84%",
+    "pickRate": "7.24%",
+    "banRate": "4.70%",
+    "url": "/champions/ashe/build/adc?type=ranked",
+    "rol": "Tirador / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Irelia.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Irelia",
+    "posicion": "Superior",
+    "winRate": "49.78%",
+    "pickRate": "3.18%",
+    "banRate": "5.03%",
+    "url": "/champions/irelia/build/top?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Sion.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Sion",
+    "posicion": "Superior",
+    "winRate": "49.72%",
+    "pickRate": "2.54%",
+    "banRate": "0.35%",
+    "url": "/champions/sion/build/top?type=ranked",
+    "rol": "Tanque / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/DrMundo.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Dr. Mundo",
+    "posicion": "Superior",
+    "winRate": "49.56%",
+    "pickRate": "3.18%",
+    "banRate": "2.11%",
+    "url": "/champions/drmundo/build/top?type=ranked",
+    "rol": "Tanque / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Rengar.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Rengar",
+    "posicion": "Jungla",
+    "winRate": "49.53%",
+    "pickRate": "2.75%",
+    "banRate": "4.18%",
+    "url": "/champions/rengar/build/jungle?type=ranked",
+    "rol": "Asesino / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Lux.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Lux",
+    "posicion": "Apoyo",
+    "winRate": "49.50%",
+    "pickRate": "7.19%",
+    "banRate": "2.47%",
+    "url": "/champions/lux/build/support?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Zeri.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Zeri",
+    "posicion": "Inferior",
+    "winRate": "49.50%",
+    "pickRate": "6.05%",
+    "banRate": "1.94%",
+    "url": "/champions/zeri/build/adc?type=ranked",
+    "rol": "Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Nasus.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Nasus",
+    "posicion": "Medio",
+    "winRate": "49.45%",
+    "pickRate": "2.88%",
+    "banRate": "4.35%",
+    "url": "/champions/nasus/build/mid?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Katarina.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Katarina",
+    "posicion": "Medio",
+    "winRate": "49.44%",
+    "pickRate": "6.77%",
+    "banRate": "7.57%",
+    "url": "/champions/katarina/build/mid?type=ranked",
+    "rol": "Asesino / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Zed.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Zed",
+    "posicion": "Jungla",
+    "winRate": "49.40%",
+    "pickRate": "1.79%",
+    "banRate": "4.27%",
+    "url": "/champions/zed/build/jungle?type=ranked",
+    "rol": "Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Kindred.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Kindred",
+    "posicion": "Jungla",
+    "winRate": "49.31%",
+    "pickRate": "3.79%",
+    "banRate": "3.72%",
+    "url": "/champions/kindred/build/jungle?type=ranked",
+    "rol": "Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Jax.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Jax",
+    "posicion": "Superior",
+    "winRate": "49.29%",
+    "pickRate": "4.55%",
+    "banRate": "6.64%",
+    "url": "/champions/jax/build/top?type=ranked",
+    "rol": "Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Graves.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Graves",
+    "posicion": "Jungla",
+    "winRate": "49.15%",
+    "pickRate": "7.34%",
+    "banRate": "3.25%",
+    "url": "/champions/graves/build/jungle?type=ranked",
+    "rol": "Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Vi.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Vi",
+    "posicion": "Jungla",
+    "winRate": "49.02%",
+    "pickRate": "5.83%",
+    "banRate": "1.95%",
+    "url": "/champions/vi/build/jungle?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Yone.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Yone",
+    "posicion": "Medio",
+    "winRate": "49.02%",
+    "pickRate": "8.18%",
+    "banRate": "6.29%",
+    "url": "/champions/yone/build/mid?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Nidalee.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Nidalee",
+    "posicion": "Jungla",
+    "winRate": "48.87%",
+    "pickRate": "5.54%",
+    "banRate": "5.45%",
+    "url": "/champions/nidalee/build/jungle?type=ranked",
+    "rol": "Asesino / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Varus.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Varus",
+    "posicion": "Inferior",
+    "winRate": "48.82%",
+    "pickRate": "10.64%",
+    "banRate": "5.09%",
+    "url": "/champions/varus/build/adc?type=ranked",
+    "rol": "Tirador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Yasuo.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Yasuo",
+    "posicion": "Medio",
+    "winRate": "48.49%",
+    "pickRate": "8.51%",
+    "banRate": "15.04%",
+    "url": "/champions/yasuo/build/mid?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Ezreal.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Ezreal",
+    "posicion": "Inferior",
+    "winRate": "48.48%",
+    "pickRate": "16.82%",
+    "banRate": "9.65%",
+    "url": "/champions/ezreal/build/adc?type=ranked",
+    "rol": "Tirador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Yone.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Yone",
+    "posicion": "Superior",
+    "winRate": "48.43%",
+    "pickRate": "4.92%",
+    "banRate": "3.76%",
+    "url": "/champions/yone/build/top?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Pantheon.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Pantheon",
+    "posicion": "Medio",
+    "winRate": "52.78%",
+    "pickRate": "0.91%",
+    "banRate": "0.27%",
+    "url": "/champions/pantheon/build/mid?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Gragas.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Gragas",
+    "posicion": "Medio",
+    "winRate": "52.54%",
+    "pickRate": "0.69%",
+    "banRate": "0.23%",
+    "url": "/champions/gragas/build/mid?type=ranked",
+    "rol": "Luchador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Swain.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Swain",
+    "posicion": "Inferior",
+    "winRate": "52.42%",
+    "pickRate": "0.61%",
+    "banRate": "0.13%",
+    "url": "/champions/swain/build/adc?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Swain.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Swain",
+    "posicion": "Medio",
+    "winRate": "52.34%",
+    "pickRate": "0.68%",
+    "banRate": "0.14%",
+    "url": "/champions/swain/build/mid?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Neeko.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Neeko",
+    "posicion": "Medio",
+    "winRate": "52.28%",
+    "pickRate": "0.60%",
+    "banRate": "0.18%",
+    "url": "/champions/neeko/build/mid?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Renekton.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Renekton",
+    "posicion": "Medio",
+    "winRate": "52.21%",
+    "pickRate": "0.61%",
+    "banRate": "0.40%",
+    "url": "/champions/renekton/build/mid?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Zoe.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Zoe",
+    "posicion": "Apoyo",
+    "winRate": "52.09%",
+    "pickRate": "0.60%",
+    "banRate": "0.22%",
+    "url": "/champions/zoe/build/support?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Annie.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Annie",
+    "posicion": "Medio",
+    "winRate": "52.03%",
+    "pickRate": "1.23%",
+    "banRate": "0.26%",
+    "url": "/champions/annie/build/mid?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Leblanc.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "LeBlanc",
+    "posicion": "Apoyo",
+    "winRate": "51.78%",
+    "pickRate": "0.75%",
+    "banRate": "2.83%",
+    "url": "/champions/leblanc/build/support?type=ranked",
+    "rol": "Asesino / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/TahmKench.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Tahm Kench",
+    "posicion": "Apoyo",
+    "winRate": "51.70%",
+    "pickRate": "1.41%",
+    "banRate": "0.41%",
+    "url": "/champions/tahmkench/build/support?type=ranked",
+    "rol": "Tanque / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Amumu.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Amumu",
+    "posicion": "Apoyo",
+    "winRate": "51.65%",
+    "pickRate": "0.80%",
+    "banRate": "0.70%",
+    "url": "/champions/amumu/build/support?type=ranked",
+    "rol": "Tanque / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Hwei.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Hwei",
+    "posicion": "Inferior",
+    "winRate": "51.64%",
+    "pickRate": "0.63%",
+    "banRate": "0.64%",
+    "url": "/champions/hwei/build/adc?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Heimerdinger.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Heimerdinger",
+    "posicion": "Superior",
+    "winRate": "51.53%",
+    "pickRate": "0.81%",
+    "banRate": "0.38%",
+    "url": "/champions/heimerdinger/build/top?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Velkoz.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Vel'Koz",
+    "posicion": "Medio",
+    "winRate": "51.50%",
+    "pickRate": "1.13%",
+    "banRate": "0.13%",
+    "url": "/champions/velkoz/build/mid?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Akshan.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Akshan",
+    "posicion": "Medio",
+    "winRate": "51.43%",
+    "pickRate": "1.53%",
+    "banRate": "2.17%",
+    "url": "/champions/akshan/build/mid?type=ranked",
+    "rol": "Tirador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Udyr.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Udyr",
+    "posicion": "Superior",
+    "winRate": "51.38%",
+    "pickRate": "0.84%",
+    "banRate": "1.15%",
+    "url": "/champions/udyr/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Camille.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Camille",
+    "posicion": "Apoyo",
+    "winRate": "51.25%",
+    "pickRate": "0.86%",
+    "banRate": "0.66%",
+    "url": "/champions/camille/build/support?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Brand.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Brand",
+    "posicion": "Medio",
+    "winRate": "51.20%",
+    "pickRate": "1.62%",
+    "banRate": "1.57%",
+    "url": "/champions/brand/build/mid?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Malphite.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Malphite",
+    "posicion": "Medio",
+    "winRate": "50.92%",
+    "pickRate": "0.87%",
+    "banRate": "1.24%",
+    "url": "/champions/malphite/build/mid?type=ranked",
+    "rol": "Tanque / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Velkoz.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Vel'Koz",
+    "posicion": "Apoyo",
+    "winRate": "50.75%",
+    "pickRate": "2.44%",
+    "banRate": "0.27%",
+    "url": "/champions/velkoz/build/support?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Maokai.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Maokai",
+    "posicion": "Apoyo",
+    "winRate": "50.65%",
+    "pickRate": "1.87%",
+    "banRate": "0.22%",
+    "url": "/champions/maokai/build/support?type=ranked",
+    "rol": "Tanque / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Trundle.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Trundle",
+    "posicion": "Superior",
+    "winRate": "50.60%",
+    "pickRate": "1.37%",
+    "banRate": "0.40%",
+    "url": "/champions/trundle/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Zilean.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Zilean",
+    "posicion": "Apoyo",
+    "winRate": "50.56%",
+    "pickRate": "2.48%",
+    "banRate": "0.60%",
+    "url": "/champions/zilean/build/support?type=ranked",
+    "rol": "Asistencia / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Sivir.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Sivir",
+    "posicion": "Inferior",
+    "winRate": "50.49%",
+    "pickRate": "2.20%",
+    "banRate": "0.30%",
+    "url": "/champions/sivir/build/adc?type=ranked",
+    "rol": "Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Sylas.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Sylas",
+    "posicion": "Superior",
+    "winRate": "50.41%",
+    "pickRate": "1.11%",
+    "banRate": "0.95%",
+    "url": "/champions/sylas/build/top?type=ranked",
+    "rol": "Mago / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Kennen.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Kennen",
+    "posicion": "Medio",
+    "winRate": "50.32%",
+    "pickRate": "0.66%",
+    "banRate": "0.39%",
+    "url": "/champions/kennen/build/mid?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Morgana.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Morgana",
+    "posicion": "Jungla",
+    "winRate": "50.30%",
+    "pickRate": "0.60%",
+    "banRate": "1.85%",
+    "url": "/champions/morgana/build/jungle?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Yasuo.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Yasuo",
+    "posicion": "Inferior",
+    "winRate": "50.29%",
+    "pickRate": "0.88%",
+    "banRate": "1.57%",
+    "url": "/champions/yasuo/build/adc?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Zyra.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Zyra",
+    "posicion": "Apoyo",
+    "winRate": "50.28%",
+    "pickRate": "3.21%",
+    "banRate": "2.66%",
+    "url": "/champions/zyra/build/support?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Neeko.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Neeko",
+    "posicion": "Apoyo",
+    "winRate": "50.28%",
+    "pickRate": "1.53%",
+    "banRate": "0.44%",
+    "url": "/champions/neeko/build/support?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Morgana.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Morgana",
+    "posicion": "Apoyo",
+    "winRate": "49.98%",
+    "pickRate": "3.88%",
+    "banRate": "11.98%",
+    "url": "/champions/morgana/build/support?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Rakan.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Rakan",
+    "posicion": "Apoyo",
+    "winRate": "49.97%",
+    "pickRate": "4.50%",
+    "banRate": "0.59%",
+    "url": "/champions/rakan/build/support?type=ranked",
+    "rol": "Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Vayne.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Vayne",
+    "posicion": "Inferior",
+    "winRate": "49.73%",
+    "pickRate": "3.22%",
+    "banRate": "3.10%",
+    "url": "/champions/vayne/build/adc?type=ranked",
+    "rol": "Tirador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/MonkeyKing.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Wukong",
+    "posicion": "Superior",
+    "winRate": "49.70%",
+    "pickRate": "2.09%",
+    "banRate": "0.24%",
+    "url": "/champions/monkeyking/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Brand.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Brand",
+    "posicion": "Apoyo",
+    "winRate": "49.54%",
+    "pickRate": "2.41%",
+    "banRate": "2.32%",
+    "url": "/champions/brand/build/support?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Teemo.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Teemo",
+    "posicion": "Superior",
+    "winRate": "49.52%",
+    "pickRate": "2.00%",
+    "banRate": "1.76%",
+    "url": "/champions/teemo/build/top?type=ranked",
+    "rol": "Tirador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Xayah.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Xayah",
+    "posicion": "Inferior",
+    "winRate": "49.49%",
+    "pickRate": "3.01%",
+    "banRate": "0.44%",
+    "url": "/champions/xayah/build/adc?type=ranked",
+    "rol": "Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Samira.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Samira",
+    "posicion": "Inferior",
+    "winRate": "49.44%",
+    "pickRate": "4.22%",
+    "banRate": "7.95%",
+    "url": "/champions/samira/build/adc?type=ranked",
+    "rol": "Tirador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Poppy.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Poppy",
+    "posicion": "Jungla",
+    "winRate": "49.42%",
+    "pickRate": "0.82%",
+    "banRate": "0.58%",
+    "url": "/champions/poppy/build/jungle?type=ranked",
+    "rol": "Tanque / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Jayce.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Jayce",
+    "posicion": "Medio",
+    "winRate": "49.36%",
+    "pickRate": "1.12%",
+    "banRate": "0.51%",
+    "url": "/champions/jayce/build/mid?type=ranked",
+    "rol": "Tirador / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Kassadin.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Kassadin",
+    "posicion": "Medio",
+    "winRate": "49.30%",
+    "pickRate": "2.07%",
+    "banRate": "2.11%",
+    "url": "/champions/kassadin/build/mid?type=ranked",
+    "rol": "Asesino / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Alistar.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Alistar",
+    "posicion": "Apoyo",
+    "winRate": "49.19%",
+    "pickRate": "5.05%",
+    "banRate": "1.67%",
+    "url": "/champions/alistar/build/support?type=ranked",
+    "rol": "Tanque / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Ziggs.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Ziggs",
+    "posicion": "Medio",
+    "winRate": "49.13%",
+    "pickRate": "1.87%",
+    "banRate": "0.75%",
+    "url": "/champions/ziggs/build/mid?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Yuumi.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Yuumi",
+    "posicion": "Apoyo",
+    "winRate": "49.10%",
+    "pickRate": "5.64%",
+    "banRate": "6.58%",
+    "url": "/champions/yuumi/build/support?type=ranked",
+    "rol": "Asistencia / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Gangplank.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Gangplank",
+    "posicion": "Superior",
+    "winRate": "48.91%",
+    "pickRate": "2.94%",
+    "banRate": "1.09%",
+    "url": "/champions/gangplank/build/top?type=ranked",
+    "rol": "Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Karthus.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Karthus",
+    "posicion": "Jungla",
+    "winRate": "48.83%",
+    "pickRate": "2.09%",
+    "banRate": "3.26%",
+    "url": "/champions/karthus/build/jungle?type=ranked",
+    "rol": "Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Gragas.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Gragas",
+    "posicion": "Jungla",
+    "winRate": "48.77%",
+    "pickRate": "2.43%",
+    "banRate": "0.80%",
+    "url": "/champions/gragas/build/jungle?type=ranked",
+    "rol": "Luchador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Gnar.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Gnar",
+    "posicion": "Superior",
+    "winRate": "48.74%",
+    "pickRate": "3.16%",
+    "banRate": "0.67%",
+    "url": "/champions/gnar/build/top?type=ranked",
+    "rol": "Luchador / Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Brand.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Brand",
+    "posicion": "Jungla",
+    "winRate": "48.48%",
+    "pickRate": "2.80%",
+    "banRate": "2.72%",
+    "url": "/champions/brand/build/jungle?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Jayce.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Jayce",
+    "posicion": "Superior",
+    "winRate": "48.39%",
+    "pickRate": "3.88%",
+    "banRate": "1.75%",
+    "url": "/champions/jayce/build/top?type=ranked",
+    "rol": "Tirador / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Nautilus.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Nautilus",
+    "posicion": "Apoyo",
+    "winRate": "48.16%",
+    "pickRate": "9.55%",
+    "banRate": "16.15%",
+    "url": "/champions/nautilus/build/support?type=ranked",
+    "rol": "Tanque / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Azir.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Azir",
+    "posicion": "Medio",
+    "winRate": "47.95%",
+    "pickRate": "2.90%",
+    "banRate": "0.46%",
+    "url": "/champions/azir/build/mid?type=ranked",
+    "rol": "Mago / Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Sejuani.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Sejuani",
+    "posicion": "Jungla",
+    "winRate": "47.50%",
+    "pickRate": "3.19%",
+    "banRate": "0.45%",
+    "url": "/champions/sejuani/build/jungle?type=ranked",
+    "rol": "Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Smolder.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Smolder",
+    "posicion": "Medio",
+    "winRate": "44.24%",
+    "pickRate": "7.26%",
+    "banRate": "6.70%",
+    "url": "/champions/smolder/build/mid?type=ranked",
+    "rol": "Tirador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Fiddlesticks.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Fiddlesticks",
+    "posicion": "Apoyo",
+    "winRate": "51.64%",
+    "pickRate": "0.52%",
+    "banRate": "0.30%",
+    "url": "/champions/fiddlesticks/build/support?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Shen.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Shen",
+    "posicion": "Apoyo",
+    "winRate": "50.03%",
+    "pickRate": "0.53%",
+    "banRate": "0.05%",
+    "url": "/champions/shen/build/support?type=ranked",
+    "rol": "Tanque"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Pantheon.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Pantheon",
+    "posicion": "Apoyo",
+    "winRate": "49.69%",
+    "pickRate": "1.81%",
+    "banRate": "0.54%",
+    "url": "/champions/pantheon/build/support?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Zac.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Zac",
+    "posicion": "Apoyo",
+    "winRate": "49.48%",
+    "pickRate": "0.65%",
+    "banRate": "0.33%",
+    "url": "/champions/zac/build/support?type=ranked",
+    "rol": "Tanque / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Vayne.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Vayne",
+    "posicion": "Superior",
+    "winRate": "48.98%",
+    "pickRate": "1.27%",
+    "banRate": "1.20%",
+    "url": "/champions/vayne/build/top?type=ranked",
+    "rol": "Tirador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Zyra.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Zyra",
+    "posicion": "Jungla",
+    "winRate": "48.85%",
+    "pickRate": "0.69%",
+    "banRate": "0.58%",
+    "url": "/champions/zyra/build/jungle?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Qiyana.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Qiyana",
+    "posicion": "Jungla",
+    "winRate": "48.75%",
+    "pickRate": "0.66%",
+    "banRate": "0.19%",
+    "url": "/champions/qiyana/build/jungle?type=ranked",
+    "rol": "Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Rumble.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Rumble",
+    "posicion": "Superior",
+    "winRate": "48.73%",
+    "pickRate": "1.85%",
+    "banRate": "1.53%",
+    "url": "/champions/rumble/build/top?type=ranked",
+    "rol": "Luchador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Jax.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Jax",
+    "posicion": "Jungla",
+    "winRate": "48.69%",
+    "pickRate": "0.56%",
+    "banRate": "0.82%",
+    "url": "/champions/jax/build/jungle?type=ranked",
+    "rol": "Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Renata.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Renata Glasc",
+    "posicion": "Apoyo",
+    "winRate": "48.59%",
+    "pickRate": "1.22%",
+    "banRate": "0.26%",
+    "url": "/champions/renata/build/support?type=ranked",
+    "rol": "Asistencia / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Swain.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Swain",
+    "posicion": "Apoyo",
+    "winRate": "48.54%",
+    "pickRate": "1.59%",
+    "banRate": "0.32%",
+    "url": "/champions/swain/build/support?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Hwei.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Hwei",
+    "posicion": "Apoyo",
+    "winRate": "48.48%",
+    "pickRate": "1.21%",
+    "banRate": "1.22%",
+    "url": "/champions/hwei/build/support?type=ranked",
+    "rol": "Mago / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Kalista.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Kalista",
+    "posicion": "Inferior",
+    "winRate": "48.20%",
+    "pickRate": "1.53%",
+    "banRate": "0.30%",
+    "url": "/champions/kalista/build/adc?type=ranked",
+    "rol": "Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Yasuo.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Yasuo",
+    "posicion": "Superior",
+    "winRate": "48.04%",
+    "pickRate": "1.74%",
+    "banRate": "3.06%",
+    "url": "/champions/yasuo/build/top?type=ranked",
+    "rol": "Luchador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Akali.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Akali",
+    "posicion": "Superior",
+    "winRate": "47.92%",
+    "pickRate": "1.72%",
+    "banRate": "2.30%",
+    "url": "/champions/akali/build/top?type=ranked",
+    "rol": "Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Aphelios.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Aphelios",
+    "posicion": "Inferior",
+    "winRate": "47.87%",
+    "pickRate": "3.64%",
+    "banRate": "0.60%",
+    "url": "/champions/aphelios/build/adc?type=ranked",
+    "rol": "Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Tristana.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Tristana",
+    "posicion": "Inferior",
+    "winRate": "47.45%",
+    "pickRate": "1.03%",
+    "banRate": "0.38%",
+    "url": "/champions/tristana/build/adc?type=ranked",
+    "rol": "Tirador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/KSante.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "K'Sante",
+    "posicion": "Superior",
+    "winRate": "47.32%",
+    "pickRate": "3.69%",
+    "banRate": "1.33%",
+    "url": "/champions/ksante/build/top?type=ranked",
+    "rol": "Tanque / Luchador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Sylas.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Sylas",
+    "posicion": "Jungla",
+    "winRate": "46.65%",
+    "pickRate": "2.15%",
+    "banRate": "1.84%",
+    "url": "/champions/sylas/build/jungle?type=ranked",
+    "rol": "Mago / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Maokai.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Maokai",
+    "posicion": "Jungla",
+    "winRate": "46.65%",
+    "pickRate": "0.93%",
+    "banRate": "0.11%",
+    "url": "/champions/maokai/build/jungle?type=ranked",
+    "rol": "Tanque / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Varus.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Varus",
+    "posicion": "Medio",
+    "winRate": "46.53%",
+    "pickRate": "0.98%",
+    "banRate": "0.46%",
+    "url": "/champions/varus/build/mid?type=ranked",
+    "rol": "Tirador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Ashe.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Ashe",
+    "posicion": "Apoyo",
+    "winRate": "46.16%",
+    "pickRate": "0.83%",
+    "banRate": "0.53%",
+    "url": "/champions/ashe/build/support?type=ranked",
+    "rol": "Tirador / Asistencia"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Tristana.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Tristana",
+    "posicion": "Medio",
+    "winRate": "45.06%",
+    "pickRate": "1.17%",
+    "banRate": "0.43%",
+    "url": "/champions/tristana/build/mid?type=ranked",
+    "rol": "Tirador / Asesino"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Smolder.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Smolder",
+    "posicion": "Superior",
+    "winRate": "44.77%",
+    "pickRate": "4.03%",
+    "banRate": "3.70%",
+    "url": "/champions/smolder/build/top?type=ranked",
+    "rol": "Tirador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Zeri.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Zeri",
+    "posicion": "Medio",
+    "winRate": "44.58%",
+    "pickRate": "0.95%",
+    "banRate": "0.30%",
+    "url": "/champions/zeri/build/mid?type=ranked",
+    "rol": "Tirador"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Corki.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Corki",
+    "posicion": "Medio",
+    "winRate": "44.53%",
+    "pickRate": "2.15%",
+    "banRate": "0.37%",
+    "url": "/champions/corki/build/mid?type=ranked",
+    "rol": "Tirador / Mago"
+  },
+  {
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/champion/Lucian.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1724034092925",
+    "nombre": "Lucian",
+    "posicion": "Medio",
+    "winRate": "44.04%",
+    "pickRate": "1.40%",
+    "banRate": "0.27%",
+    "url": "/champions/lucian/build/mid?type=ranked",
+    "rol": "Tirador / Asesino"
+  }
+]

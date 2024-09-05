@@ -1,0 +1,100 @@
+[
+  {
+    "nombre": "Anillo de Doran",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1056.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "18 de poder de habilidad",
+      "90 de vida"
+    ]
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Escudo de Doran",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1054.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "110 de vida"
+    ]
+  },
+  {
+    "nombre": "Botas blindadas",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3047.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "25 de armadura",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de rapidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3009.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Lágrima de la diosa",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3070.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "240 de maná"
+    ]
+  },
+  {
+    "nombre": "Tormento de Liandry",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6653.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "90 de poder de habilidad",
+      "300 de vida"
+    ]
+  },
+  {
+    "nombre": "El gran invierno",
+    "precio": "2400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3121.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "550 de vida",
+      "860 de maná",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Corazón de hielo",
+    "precio": "2500",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3110.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "65 de armadura",
+      "400 de maná",
+      "20 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Desesperanza eterna",
+    "precio": "2800",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2502.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "400 de vida",
+      "55 de armadura",
+      "10 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Rostro espiritual",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3065.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "450 de vida",
+      "60 de resistencia mágica",
+      "10 de velocidad de habilidades",
+      "100% de regeneración de vida básica"
+    ]
+  }
+]

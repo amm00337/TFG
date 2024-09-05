@@ -1,0 +1,110 @@
+[
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Atlas mundial",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3865.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Botas",
+    "precio": "300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1001.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "25 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Almas en sincronía",
+    "precio": "900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3013.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas jonias de la lucidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3158.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de velocidad de habilidades",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Tonada sanguina",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3877.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "75% de regeneración de vida básica",
+      "75% de regeneración de maná básica",
+      "5 de oro cada 10 segundos"
+    ]
+  },
+  {
+    "nombre": "Detracción celestial",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3869.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "75% de regeneración de vida básica",
+      "75% de regeneración de maná básica",
+      "5 de oro cada 10 segundos"
+    ]
+  },
+  {
+    "nombre": "Guja sombría",
+    "precio": "2600",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3179.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "50 de daño de ataque",
+      "15 de letalidad",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Filo fantasmal de Youmuu",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3142.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de daño de ataque",
+      "18 de letalidad"
+    ]
+  },
+  {
+    "nombre": "Filo de la noche",
+    "precio": "2800",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3814.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "50 de daño de ataque",
+      "15 de letalidad",
+      "250 de vida"
+    ]
+  },
+  {
+    "nombre": "Arco axiomático",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6696.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "55 de daño de ataque",
+      "18 de letalidad",
+      "25 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Espada ciclovoltaica",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6699.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "55 de daño de ataque",
+      "18 de letalidad",
+      "15 de velocidad de habilidades"
+    ]
+  }
+]

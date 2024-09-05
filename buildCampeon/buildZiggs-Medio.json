@@ -1,0 +1,109 @@
+[
+  {
+    "nombre": "Anillo de Doran",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1056.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "18 de poder de habilidad",
+      "90 de vida"
+    ]
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Lágrima de la diosa",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3070.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "240 de maná"
+    ]
+  },
+  {
+    "nombre": "Botas de hechicero",
+    "precio": "1100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3020.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de penetración mágica",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas jonias de la lucidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3158.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de velocidad de habilidades",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Perforaplanos de Zaz'Zak",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3871.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "75% de regeneración de vida básica",
+      "75% de regeneración de maná básica",
+      "5 de oro cada 10 segundos"
+    ]
+  },
+  {
+    "nombre": "Compañera de Luden",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6655.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "95 de poder de habilidad",
+      "600 de maná",
+      "25 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Abrazo del serafín",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3040.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "80 de poder de habilidad",
+      "1000 de maná",
+      "25 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Tormento de Liandry",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6653.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "90 de poder de habilidad",
+      "300 de vida"
+    ]
+  },
+  {
+    "nombre": "Sombrero mortal de Rabadon",
+    "precio": "3600",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3089.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "140 de poder de habilidad"
+    ]
+  },
+  {
+    "nombre": "Precisión infalible",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/4628.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "90 de poder de habilidad",
+      "20 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Llamasombría",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/4645.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "120 de poder de habilidad",
+      "12 de penetración mágica"
+    ]
+  }
+]

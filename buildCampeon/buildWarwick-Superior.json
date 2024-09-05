@@ -1,0 +1,104 @@
+[
+  {
+    "nombre": "Espada de Doran",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1055.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "10 de daño de ataque",
+      "80 de vida",
+      "3% de robo de vida"
+    ]
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Escudo de Doran",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1054.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "110 de vida"
+    ]
+  },
+  {
+    "nombre": "Botas blindadas",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3047.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "25 de armadura",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3111.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "20 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Hoja del rey arruinado",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3153.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "50 de daño de ataque",
+      "25% de velocidad de ataque",
+      "10% de robo de vida"
+    ]
+  },
+  {
+    "nombre": "Cortasendas",
+    "precio": "3300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6631.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "50 de daño de ataque",
+      "30% de velocidad de ataque",
+      "450 de vida"
+    ]
+  },
+  {
+    "nombre": "Calibrador de Sterak",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3053.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "400 de vida",
+      "20% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Rompecascos",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3181.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "65 de daño de ataque",
+      "350 de vida",
+      "5% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Malla de espinas",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3075.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "350 de vida",
+      "70 de armadura"
+    ]
+  },
+  {
+    "nombre": "Rostro espiritual",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3065.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "450 de vida",
+      "60 de resistencia mágica",
+      "10 de velocidad de habilidades",
+      "100% de regeneración de vida básica"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Volibear",
+    "win": "31.43%"
+  },
+  {
+    "nombre": "Udyr",
+    "win": "35.71%"
+  },
+  {
+    "nombre": "Ekko",
+    "win": "39.13%"
+  },
+  {
+    "nombre": "Shaco",
+    "win": "40.54%"
+  },
+  {
+    "nombre": "Briar",
+    "win": "41.18%"
+  },
+  {
+    "nombre": "Sylas",
+    "win": "65.85%"
+  },
+  {
+    "nombre": "Warwick",
+    "win": "61.76%"
+  },
+  {
+    "nombre": "Zyra",
+    "win": "60.53%"
+  },
+  {
+    "nombre": "Zac",
+    "win": "59.09%"
+  },
+  {
+    "nombre": "Graves",
+    "win": "58.54%"
+  }
+]

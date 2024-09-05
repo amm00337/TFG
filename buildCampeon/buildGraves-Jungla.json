@@ -1,0 +1,101 @@
+[
+  {
+    "nombre": "Cachorro de Garra ígnea",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1101.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Botas blindadas",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3047.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "25 de armadura",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3111.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "20 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Filo fantasmal de Youmuu",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3142.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de daño de ataque",
+      "18 de letalidad"
+    ]
+  },
+  {
+    "nombre": "Recaudadora",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6676.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de daño de ataque",
+      "12 de letalidad",
+      "25% de probabilidad de impacto crítico"
+    ]
+  },
+  {
+    "nombre": "Recuerdos de lord Dominik",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3036.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "45 de daño de ataque",
+      "35% de penetración de armadura",
+      "25% de probabilidad de impacto crítico"
+    ]
+  },
+  {
+    "nombre": "Filo infinito",
+    "precio": "3400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3031.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "80 de daño de ataque",
+      "25% de probabilidad de impacto crítico",
+      "40% de daño de impacto crítico"
+    ]
+  },
+  {
+    "nombre": "Recordatorio letal",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3033.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "35 de daño de ataque",
+      "35% de penetración de armadura",
+      "25% de probabilidad de impacto crítico"
+    ]
+  },
+  {
+    "nombre": "Arcoescudo inmortal",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6673.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "55 de daño de ataque",
+      "25% de probabilidad de impacto crítico"
+    ]
+  },
+  {
+    "nombre": "Oportunidades",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6701.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "55 de daño de ataque",
+      "18 de letalidad",
+      "5% de velocidad de movimiento"
+    ]
+  }
+]

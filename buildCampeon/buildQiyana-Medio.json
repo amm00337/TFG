@@ -1,0 +1,99 @@
+[
+  {
+    "nombre": "Espada larga",
+    "precio": "350",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1036.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "10 de daño de ataque"
+    ]
+  },
+  {
+    "nombre": "Poción reutilizable",
+    "precio": "150",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2031.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Botas jonias de la lucidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3158.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de velocidad de habilidades",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3111.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "20 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Hidra profana",
+    "precio": "3300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6698.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de daño de ataque",
+      "18 de letalidad",
+      "20 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Filo fantasmal de Youmuu",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3142.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de daño de ataque",
+      "18 de letalidad"
+    ]
+  },
+  {
+    "nombre": "Rencor de Serylda",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6694.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "45 de daño de ataque",
+      "15 de letalidad",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Daga dentada",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3134.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "20 de daño de ataque",
+      "10 de letalidad"
+    ]
+  },
+  {
+    "nombre": "Soberbia",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6697.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de daño de ataque",
+      "18 de letalidad",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Filo de la noche",
+    "precio": "2800",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3814.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "50 de daño de ataque",
+      "15 de letalidad",
+      "250 de vida"
+    ]
+  }
+]

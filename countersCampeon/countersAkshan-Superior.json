@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Yasuo",
+    "win": "32.26%"
+  },
+  {
+    "nombre": "Jax",
+    "win": "39.66%"
+  },
+  {
+    "nombre": "Nasus",
+    "win": "41.33%"
+  },
+  {
+    "nombre": "Camille",
+    "win": "42.03%"
+  },
+  {
+    "nombre": "Pantheon",
+    "win": "43.75%"
+  },
+  {
+    "nombre": "Vayne",
+    "win": "62.75%"
+  },
+  {
+    "nombre": "Quinn",
+    "win": "62.16%"
+  },
+  {
+    "nombre": "Gangplank",
+    "win": "61.11%"
+  },
+  {
+    "nombre": "Aurora",
+    "win": "60.81%"
+  },
+  {
+    "nombre": "Ksante",
+    "win": "59.65%"
+  }
+]

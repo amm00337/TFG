@@ -1,0 +1,112 @@
+[
+  {
+    "nombre": "Escudo de Doran",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/1054.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "110 de vida"
+    ]
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/2003.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Lágrima de la diosa",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3070.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "240 de maná"
+    ]
+  },
+  {
+    "nombre": "Botas blindadas",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3047.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "25 de armadura",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3111.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "25 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Égida de fuego solar",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3068.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "350 de vida",
+      "50 de armadura",
+      "10 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "El gran invierno",
+    "precio": "2400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3121.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "550 de vida",
+      "860 de maná",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Malla de espinas",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3075.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "350 de vida",
+      "70 de armadura"
+    ]
+  },
+  {
+    "nombre": "Rookern kaénico",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/2504.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "400 de vida",
+      "80 de resistencia mágica",
+      "150% de regeneración de vida básica"
+    ]
+  },
+  {
+    "nombre": "Fulgor vano",
+    "precio": "2800",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/6664.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "450 de vida",
+      "40 de resistencia mágica",
+      "10 de velocidad de habilidades",
+      "100% de regeneración de vida básica"
+    ]
+  },
+  {
+    "nombre": "Jak'Sho, el Proteico",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/6665.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "300 de vida",
+      "50 de armadura",
+      "50 de resistencia mágica"
+    ]
+  },
+  {
+    "nombre": "Corazón de acero",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3084.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "900 de vida",
+      "200% de regeneración de vida básica"
+    ]
+  }
+]

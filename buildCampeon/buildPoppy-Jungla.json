@@ -1,0 +1,97 @@
+[
+  {
+    "nombre": "Cría de Caminabrisas",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1102.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Brote de Brincamontes",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1103.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Botas blindadas",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3047.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "25 de armadura",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3111.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "20 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Firmamento desgarrado",
+    "precio": "3100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6610.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "45 de daño de ataque",
+      "450 de vida",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Coraza del muerto",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3742.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "300 de vida",
+      "45 de armadura",
+      "5% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Malla de espinas",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3075.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "350 de vida",
+      "70 de armadura"
+    ]
+  },
+  {
+    "nombre": "Fuerza de la naturaleza",
+    "precio": "2800",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/4401.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "400 de vida",
+      "55 de resistencia mágica",
+      "5% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Rookern kaénico",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2504.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "400 de vida",
+      "80 de resistencia mágica",
+      "150% de regeneración de vida básica"
+    ]
+  },
+  {
+    "nombre": "Eclipse",
+    "precio": "2800",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6692.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "70 de daño de ataque",
+      "15 de velocidad de habilidades"
+    ]
+  }
+]

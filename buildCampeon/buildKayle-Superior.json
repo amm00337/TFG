@@ -1,0 +1,89 @@
+[
+  {
+    "nombre": "Espada de Doran",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1055.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "10 de daño de ataque",
+      "80 de vida",
+      "3% de robo de vida"
+    ]
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Escudo de Doran",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1054.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "110 de vida"
+    ]
+  },
+  {
+    "nombre": "Botas de rapidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3009.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Grebas de berserker",
+    "precio": "1100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3006.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "30% de velocidad de ataque",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Diente de Nashor",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3115.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "90 de poder de habilidad",
+      "50% de velocidad de ataque",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Sombrero mortal de Rabadon",
+    "precio": "3600",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3089.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "140 de poder de habilidad"
+    ]
+  },
+  {
+    "nombre": "Perdición del liche",
+    "precio": "3100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3100.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "100 de poder de habilidad",
+      "8% de velocidad de movimiento",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Llamasombría",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/4645.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "120 de poder de habilidad",
+      "12 de penetración mágica"
+    ]
+  },
+  {
+    "nombre": "Cetro de cristal de Rylai",
+    "precio": "2600",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3116.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "75 de poder de habilidad",
+      "400 de vida"
+    ]
+  }
+]

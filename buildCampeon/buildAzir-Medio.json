@@ -1,0 +1,91 @@
+[
+  {
+    "nombre": "Anillo de Doran",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1056.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "18 de poder de habilidad",
+      "90 de vida"
+    ]
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Botas de hechicero",
+    "precio": "1100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3020.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de penetración mágica",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3111.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "20 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Diente de Nashor",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3115.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "90 de poder de habilidad",
+      "50% de velocidad de ataque",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Tormento de Liandry",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6653.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "90 de poder de habilidad",
+      "300 de vida"
+    ]
+  },
+  {
+    "nombre": "Reloj de arena de Zhonya",
+    "precio": "3250",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3157.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "120 de poder de habilidad",
+      "50 de armadura"
+    ]
+  },
+  {
+    "nombre": "Sombrero mortal de Rabadon",
+    "precio": "3600",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3089.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "140 de poder de habilidad"
+    ]
+  },
+  {
+    "nombre": "Florescencia sepulcral",
+    "precio": "2850",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3137.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "70 de poder de habilidad",
+      "30% de penetración mágica",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Bastón del Vacío",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3135.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "95 de poder de habilidad",
+      "40% de penetración mágica"
+    ]
+  }
+]

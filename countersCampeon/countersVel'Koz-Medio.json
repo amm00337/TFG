@@ -1,0 +1,230 @@
+[
+  {
+    "nombre": "Hwei",
+    "win": "52.40%"
+  },
+  {
+    "nombre": "Syndra",
+    "win": "47.81%"
+  },
+  {
+    "nombre": "Zed",
+    "win": "44.93%"
+  },
+  {
+    "nombre": "Yone",
+    "win": "48.91%"
+  },
+  {
+    "nombre": "Yasuo",
+    "win": "52.59%"
+  },
+  {
+    "nombre": "Katarina",
+    "win": "48.25%"
+  },
+  {
+    "nombre": "Smolder",
+    "win": "60.95%"
+  },
+  {
+    "nombre": "Sylas",
+    "win": "48.55%"
+  },
+  {
+    "nombre": "Ahri",
+    "win": "46.70%"
+  },
+  {
+    "nombre": "Lissandra",
+    "win": "48.14%"
+  },
+  {
+    "nombre": "Aurora",
+    "win": "52.62%"
+  },
+  {
+    "nombre": "Lux",
+    "win": "52.15%"
+  },
+  {
+    "nombre": "LeBlanc",
+    "win": "46.32%"
+  },
+  {
+    "nombre": "Xerath",
+    "win": "52.57%"
+  },
+  {
+    "nombre": "Malzahar",
+    "win": "52.00%"
+  },
+  {
+    "nombre": "Orianna",
+    "win": "53.29%"
+  },
+  {
+    "nombre": "Veigar",
+    "win": "48.85%"
+  },
+  {
+    "nombre": "Akali",
+    "win": "52.67%"
+  },
+  {
+    "nombre": "Vladimir",
+    "win": "51.00%"
+  },
+  {
+    "nombre": "Fizz",
+    "win": "41.60%"
+  },
+  {
+    "nombre": "Ryze",
+    "win": "49.35%"
+  },
+  {
+    "nombre": "Viktor",
+    "win": "52.44%"
+  },
+  {
+    "nombre": "Twisted Fate",
+    "win": "48.33%"
+  },
+  {
+    "nombre": "Azir",
+    "win": "51.92%"
+  },
+  {
+    "nombre": "Diana",
+    "win": "48.53%"
+  },
+  {
+    "nombre": "Anivia",
+    "win": "49.01%"
+  },
+  {
+    "nombre": "Aurelion Sol",
+    "win": "47.74%"
+  },
+  {
+    "nombre": "Nasus",
+    "win": "55.90%"
+  },
+  {
+    "nombre": "Vex",
+    "win": "47.12%"
+  },
+  {
+    "nombre": "Galio",
+    "win": "53.16%"
+  },
+  {
+    "nombre": "Kassadin",
+    "win": "47.09%"
+  },
+  {
+    "nombre": "Talon",
+    "win": "50.00%"
+  },
+  {
+    "nombre": "Zoe",
+    "win": "49.08%"
+  },
+  {
+    "nombre": "Ekko",
+    "win": "47.53%"
+  },
+  {
+    "nombre": "Ziggs",
+    "win": "52.17%"
+  },
+  {
+    "nombre": "Qiyana",
+    "win": "51.27%"
+  },
+  {
+    "nombre": "Irelia",
+    "win": "49.32%"
+  },
+  {
+    "nombre": "Corki",
+    "win": "58.90%"
+  },
+  {
+    "nombre": "Brand",
+    "win": "53.42%"
+  },
+  {
+    "nombre": "Naafiri",
+    "win": "50.00%"
+  },
+  {
+    "nombre": "Cassiopeia",
+    "win": "52.99%"
+  },
+  {
+    "nombre": "Akshan",
+    "win": "50.78%"
+  },
+  {
+    "nombre": "Taliyah",
+    "win": "49.12%"
+  },
+  {
+    "nombre": "Annie",
+    "win": "56.00%"
+  },
+  {
+    "nombre": "Garen",
+    "win": "59.00%"
+  },
+  {
+    "nombre": "Varus",
+    "win": "50.55%"
+  },
+  {
+    "nombre": "Tristana",
+    "win": "53.09%"
+  },
+  {
+    "nombre": "Lucian",
+    "win": "61.04%"
+  },
+  {
+    "nombre": "Swain",
+    "win": "64.41%"
+  },
+  {
+    "nombre": "Zeri",
+    "win": "50.00%"
+  },
+  {
+    "nombre": "Malphite",
+    "win": "53.06%"
+  },
+  {
+    "nombre": "Jayce",
+    "win": "67.35%"
+  },
+  {
+    "nombre": "Gragas",
+    "win": "54.17%"
+  },
+  {
+    "nombre": "Quinn",
+    "win": "60.47%"
+  },
+  {
+    "nombre": "Pantheon",
+    "win": "56.41%"
+  },
+  {
+    "nombre": "Neeko",
+    "win": "47.37%"
+  },
+  {
+    "nombre": "Kennen",
+    "win": "57.14%"
+  }
+]

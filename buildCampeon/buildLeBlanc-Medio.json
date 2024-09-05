@@ -1,0 +1,120 @@
+[
+  {
+    "nombre": "Anillo de Doran",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1056.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "18 de poder de habilidad",
+      "90 de vida"
+    ]
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Tomo amplificador",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1052.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "20 de poder de habilidad"
+    ]
+  },
+  {
+    "nombre": "Botas de hechicero",
+    "precio": "1100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3020.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de penetración mágica",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3111.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "20 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Perforaplanos de Zaz'Zak",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3871.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "75% de regeneración de vida básica",
+      "75% de regeneración de maná básica",
+      "5 de oro cada 10 segundos"
+    ]
+  },
+  {
+    "nombre": "Compañera de Luden",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6655.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "95 de poder de habilidad",
+      "600 de maná",
+      "25 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Llamasombría",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/4645.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "120 de poder de habilidad",
+      "12 de penetración mágica"
+    ]
+  },
+  {
+    "nombre": "Sombrero mortal de Rabadon",
+    "precio": "3600",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3089.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "140 de poder de habilidad"
+    ]
+  },
+  {
+    "nombre": "Reloj de arena de Zhonya",
+    "precio": "3250",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3157.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "120 de poder de habilidad",
+      "50 de armadura"
+    ]
+  },
+  {
+    "nombre": "Florescencia sepulcral",
+    "precio": "2850",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3137.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "70 de poder de habilidad",
+      "30% de penetración mágica",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Sobrecarga tormentosa",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/4646.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "95 de poder de habilidad",
+      "10 de penetración mágica",
+      "8% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Sello oscuro",
+    "precio": "350",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1082.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de poder de habilidad",
+      "50 de vida"
+    ]
+  }
+]

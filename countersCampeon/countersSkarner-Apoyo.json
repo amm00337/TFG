@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Poppy",
+    "win": "35.42%"
+  },
+  {
+    "nombre": "Xerath",
+    "win": "43.02%"
+  },
+  {
+    "nombre": "Sona",
+    "win": "44.44%"
+  },
+  {
+    "nombre": "Hwei",
+    "win": "45.65%"
+  },
+  {
+    "nombre": "Karma",
+    "win": "46.15%"
+  },
+  {
+    "nombre": "Camille",
+    "win": "66.67%"
+  },
+  {
+    "nombre": "Pantheon",
+    "win": "62.5%"
+  },
+  {
+    "nombre": "Zyra",
+    "win": "60.87%"
+  },
+  {
+    "nombre": "Milio",
+    "win": "58.71%"
+  },
+  {
+    "nombre": "Ashe",
+    "win": "57.41%"
+  }
+]

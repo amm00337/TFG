@@ -1,0 +1,109 @@
+[
+  {
+    "nombre": "Cría de Caminabrisas",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1102.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Cachorro de Garra ígnea",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1101.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3111.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "20 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Botas blindadas",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3047.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "25 de armadura",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Fuerza de trinidad",
+    "precio": "3333",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3078.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "45 de daño de ataque",
+      "33% de velocidad de ataque",
+      "300 de vida",
+      "20 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Firmamento desgarrado",
+    "precio": "3100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6610.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "45 de daño de ataque",
+      "450 de vida",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Calibrador de Sterak",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3053.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "400 de vida",
+      "20% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Lanza de Shojin",
+    "precio": "3100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3161.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "55 de daño de ataque",
+      "300 de vida",
+      "20 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Corazón de hielo",
+    "precio": "2500",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3110.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "65 de armadura",
+      "400 de maná",
+      "20 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Hoja del rey arruinado",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3153.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "50 de daño de ataque",
+      "25% de velocidad de ataque",
+      "10% de robo de vida"
+    ]
+  },
+  {
+    "nombre": "Final del ingenio",
+    "precio": "2800",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3091.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "55% de velocidad de ataque",
+      "50 de resistencia mágica",
+      "20% de tenacidad"
+    ]
+  }
+]

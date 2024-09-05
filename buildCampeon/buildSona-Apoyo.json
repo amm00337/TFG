@@ -1,0 +1,114 @@
+[
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Atlas mundial",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3865.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Botas jonias de la lucidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3158.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de velocidad de habilidades",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de rapidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3009.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Tejesueños",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3870.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "75% de regeneración de vida básica",
+      "75% de regeneración de maná básica",
+      "5 de oro cada 10 segundos"
+    ]
+  },
+  {
+    "nombre": "Tonada sanguina",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3877.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "75% de regeneración de vida básica",
+      "75% de regeneración de maná básica",
+      "5 de oro cada 10 segundos"
+    ]
+  },
+  {
+    "nombre": "Ecos de Helia",
+    "precio": "2200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6620.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "40 de poder de habilidad",
+      "200 de vida",
+      "20 de velocidad de habilidades",
+      "125% de regeneración de maná básica"
+    ]
+  },
+  {
+    "nombre": "Renovación de piedra lunar",
+    "precio": "2200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6617.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "30 de poder de habilidad",
+      "250 de vida",
+      "20 de velocidad de habilidades",
+      "125% de regeneración de maná básica"
+    ]
+  },
+  {
+    "nombre": "Bastón de aguas fluidas",
+    "precio": "2300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6616.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "40 de poder de habilidad",
+      "8% de poder de curaciones y escudos",
+      "125% de regeneración de maná básica",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Núcleo albar",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6621.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de poder de habilidad",
+      "16% de poder de curaciones y escudos",
+      "100% de regeneración de maná básica"
+    ]
+  },
+  {
+    "nombre": "Lágrima de la diosa",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3070.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "240 de maná"
+    ]
+  },
+  {
+    "nombre": "Abrazo del serafín",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3040.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "80 de poder de habilidad",
+      "1000 de maná",
+      "25 de velocidad de habilidades"
+    ]
+  }
+]

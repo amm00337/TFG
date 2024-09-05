@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Teemo",
+    "win": "34.04%"
+  },
+  {
+    "nombre": "Olaf",
+    "win": "36.36%"
+  },
+  {
+    "nombre": "Drmundo",
+    "win": "37.21%"
+  },
+  {
+    "nombre": "Skarner",
+    "win": "37.8%"
+  },
+  {
+    "nombre": "Singed",
+    "win": "37.84%"
+  },
+  {
+    "nombre": "Jayce",
+    "win": "59.88%"
+  },
+  {
+    "nombre": "Rumble",
+    "win": "58.11%"
+  },
+  {
+    "nombre": "Kayle",
+    "win": "57.32%"
+  },
+  {
+    "nombre": "Volibear",
+    "win": "57.14%"
+  },
+  {
+    "nombre": "Irelia",
+    "win": "56.82%"
+  }
+]

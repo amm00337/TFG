@@ -1,0 +1,112 @@
+[
+  {
+    "nombre": "Espada de Doran",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/1055.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "10 de daño de ataque",
+      "100 de vida",
+      "3.5% de robo de vida"
+    ]
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/2003.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Preferencia",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/1083.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "7 de daño de ataque"
+    ]
+  },
+  {
+    "nombre": "Botas de rapidez",
+    "precio": "900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3009.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "60 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas blindadas",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3047.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "25 de armadura",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Verdugo de krakens",
+    "precio": "3100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/6672.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "50 de daño de ataque",
+      "40% de velocidad de ataque",
+      "7% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Cañón de fuego rápido",
+    "precio": "2600",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3094.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "35% de velocidad de ataque",
+      "25% de probabilidad de impacto crítico",
+      "7% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "El final",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3302.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "35 de daño de ataque",
+      "35% de velocidad de ataque"
+    ]
+  },
+  {
+    "nombre": "Filo infinito",
+    "precio": "3400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3031.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "80 de daño de ataque",
+      "25% de probabilidad de impacto crítico",
+      "40% de daño de impacto crítico"
+    ]
+  },
+  {
+    "nombre": "Hoja de furia de Guinsoo",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3124.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "35 de daño de ataque",
+      "35 de poder de habilidad",
+      "25% de velocidad de ataque"
+    ]
+  },
+  {
+    "nombre": "Final del ingenio",
+    "precio": "2800",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3091.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "55% de velocidad de ataque",
+      "50 de resistencia mágica",
+      "20% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Puñal de Statikk",
+    "precio": "2800",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.14.1/item/3087.png?image=e_upscale,q_auto,f_webp,w_64,h_64&v=1721451321478",
+    "estadisticas": [
+      "55 de daño de ataque",
+      "45% de velocidad de ataque",
+      "7% de velocidad de movimiento"
+    ]
+  }
+]

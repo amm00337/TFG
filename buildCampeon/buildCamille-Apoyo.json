@@ -1,0 +1,111 @@
+[
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Atlas mundial",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3865.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Cristal de rubí",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1028.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "150 de vida"
+    ]
+  },
+  {
+    "nombre": "Botas blindadas",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3047.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "25 de armadura",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3111.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "20 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Tonada sanguina",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3877.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "75% de regeneración de vida básica",
+      "75% de regeneración de maná básica",
+      "5 de oro cada 10 segundos"
+    ]
+  },
+  {
+    "nombre": "Detracción celestial",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3869.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "75% de regeneración de vida básica",
+      "75% de regeneración de maná básica",
+      "5 de oro cada 10 segundos"
+    ]
+  },
+  {
+    "nombre": "Eclipse",
+    "precio": "2800",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6692.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "70 de daño de ataque",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Firmamento desgarrado",
+    "precio": "3100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6610.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "45 de daño de ataque",
+      "450 de vida",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Calibrador de Sterak",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3053.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "400 de vida",
+      "20% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Hidra voraz",
+    "precio": "3300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3074.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "70 de daño de ataque",
+      "20 de velocidad de habilidades",
+      "12% de robo de vida"
+    ]
+  },
+  {
+    "nombre": "Fauces de Malmortius",
+    "precio": "3100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3156.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "70 de daño de ataque",
+      "15 de velocidad de habilidades",
+      "40 de resistencia mágica"
+    ]
+  }
+]

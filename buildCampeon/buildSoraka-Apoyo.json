@@ -1,0 +1,117 @@
+[
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Atlas mundial",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3865.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Botas jonias de la lucidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3158.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de velocidad de habilidades",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de rapidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3009.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Tejesueños",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3870.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "75% de regeneración de vida básica",
+      "75% de regeneración de maná básica",
+      "5 de oro cada 10 segundos"
+    ]
+  },
+  {
+    "nombre": "Detracción celestial",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3869.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "75% de regeneración de vida básica",
+      "75% de regeneración de maná básica",
+      "5 de oro cada 10 segundos"
+    ]
+  },
+  {
+    "nombre": "Renovación de piedra lunar",
+    "precio": "2200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6617.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "30 de poder de habilidad",
+      "250 de vida",
+      "20 de velocidad de habilidades",
+      "125% de regeneración de maná básica"
+    ]
+  },
+  {
+    "nombre": "Redención",
+    "precio": "2300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3107.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "15 de velocidad de habilidades",
+      "100% de regeneración de maná básica",
+      "15% de poder de curaciones y escudos"
+    ]
+  },
+  {
+    "nombre": "Núcleo albar",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6621.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de poder de habilidad",
+      "16% de poder de curaciones y escudos",
+      "100% de regeneración de maná básica"
+    ]
+  },
+  {
+    "nombre": "Armadura de Warmog",
+    "precio": "3300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3083.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "1000 de vida",
+      "5% de velocidad de movimiento",
+      "100% de regeneración de vida básica"
+    ]
+  },
+  {
+    "nombre": "Incensario ardiente",
+    "precio": "2300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3504.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "50 de poder de habilidad",
+      "8% de poder de curaciones y escudos",
+      "125% de regeneración de maná básica",
+      "8% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Bendición de Mikael",
+    "precio": "2300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3222.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "250 de vida",
+      "100% de regeneración de maná básica",
+      "12% de poder de curaciones y escudos",
+      "15 de velocidad de habilidades"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Kled",
+    "win": "37.5%"
+  },
+  {
+    "nombre": "Tahmkench",
+    "win": "37.88%"
+  },
+  {
+    "nombre": "Nasus",
+    "win": "40.54%"
+  },
+  {
+    "nombre": "Poppy",
+    "win": "41.03%"
+  },
+  {
+    "nombre": "Twistedfate",
+    "win": "41.67%"
+  },
+  {
+    "nombre": "Akali",
+    "win": "67.42%"
+  },
+  {
+    "nombre": "Riven",
+    "win": "60.36%"
+  },
+  {
+    "nombre": "Chogath",
+    "win": "59.52%"
+  },
+  {
+    "nombre": "Gnar",
+    "win": "58.23%"
+  },
+  {
+    "nombre": "Mordekaiser",
+    "win": "57.61%"
+  }
+]

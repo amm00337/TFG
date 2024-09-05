@@ -1,0 +1,125 @@
+[
+  {
+    "nombre": "Cría de Caminabrisas",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1102.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Cachorro de Garra ígnea",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1101.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Grebas de berserker",
+    "precio": "1100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3006.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "30% de velocidad de ataque",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de rapidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3009.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Hidra profana",
+    "precio": "3300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6698.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de daño de ataque",
+      "18 de letalidad",
+      "20 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Espada ciclovoltaica",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6699.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "55 de daño de ataque",
+      "18 de letalidad",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Oportunidades",
+    "precio": "2700",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6701.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "55 de daño de ataque",
+      "18 de letalidad",
+      "5% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Recaudadora",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6676.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de daño de ataque",
+      "12 de letalidad",
+      "25% de probabilidad de impacto crítico"
+    ]
+  },
+  {
+    "nombre": "Filo infinito",
+    "precio": "3400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3031.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "80 de daño de ataque",
+      "25% de probabilidad de impacto crítico",
+      "40% de daño de impacto crítico"
+    ]
+  },
+  {
+    "nombre": "Recuerdos de lord Dominik",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3036.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "45 de daño de ataque",
+      "35% de penetración de armadura",
+      "25% de probabilidad de impacto crítico"
+    ]
+  },
+  {
+    "nombre": "Antorcha de fuego negro",
+    "precio": "2800",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2503.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "90 de poder de habilidad",
+      "600 de maná",
+      "25 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Tormento de Liandry",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6653.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "90 de poder de habilidad",
+      "300 de vida"
+    ]
+  },
+  {
+    "nombre": "Llamasombría",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/4645.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "120 de poder de habilidad",
+      "12 de penetración mágica"
+    ]
+  }
+]

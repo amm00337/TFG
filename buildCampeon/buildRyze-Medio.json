@@ -1,0 +1,110 @@
+[
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Lágrima de la diosa",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3070.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "240 de maná"
+    ]
+  },
+  {
+    "nombre": "Anillo de Doran",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1056.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "18 de poder de habilidad",
+      "90 de vida"
+    ]
+  },
+  {
+    "nombre": "Botas de hechicero",
+    "precio": "1100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3020.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de penetración mágica",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas jonias de la lucidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3158.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de velocidad de habilidades",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Vara de las edades",
+    "precio": "2600",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6657.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "50 de poder de habilidad",
+      "400 de vida",
+      "400 de maná"
+    ]
+  },
+  {
+    "nombre": "Abrazo del serafín",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3040.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "80 de poder de habilidad",
+      "1000 de maná",
+      "25 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Sombrero mortal de Rabadon",
+    "precio": "3600",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3089.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "140 de poder de habilidad"
+    ]
+  },
+  {
+    "nombre": "Reloj de arena de Zhonya",
+    "precio": "3250",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3157.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "120 de poder de habilidad",
+      "50 de armadura"
+    ]
+  },
+  {
+    "nombre": "Corazón de hielo",
+    "precio": "2500",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3110.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "65 de armadura",
+      "400 de maná",
+      "20 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Impulso cósmico",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/4629.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "80 de poder de habilidad",
+      "350 de vida",
+      "25 de velocidad de habilidades",
+      "5% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Bastón del Vacío",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3135.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "95 de poder de habilidad",
+      "40% de penetración mágica"
+    ]
+  }
+]

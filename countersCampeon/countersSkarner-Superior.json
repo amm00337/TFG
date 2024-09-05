@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Tryndamere",
+    "win": "36.96%"
+  },
+  {
+    "nombre": "Chogath",
+    "win": "38.89%"
+  },
+  {
+    "nombre": "Garen",
+    "win": "39.82%"
+  },
+  {
+    "nombre": "Urgot",
+    "win": "40%"
+  },
+  {
+    "nombre": "Gragas",
+    "win": "40.82%"
+  },
+  {
+    "nombre": "Irelia",
+    "win": "60.78%"
+  },
+  {
+    "nombre": "Teemo",
+    "win": "59.18%"
+  },
+  {
+    "nombre": "Kayle",
+    "win": "58.82%"
+  },
+  {
+    "nombre": "Kennen",
+    "win": "57.14%"
+  },
+  {
+    "nombre": "Warwick",
+    "win": "56.25%"
+  }
+]

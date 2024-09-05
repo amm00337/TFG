@@ -1,0 +1,105 @@
+[
+  {
+    "nombre": "Espada de Doran",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.11.1/item/1055.png?image=q_auto:good,f_webp,w_64,h_64&v=1715147216574",
+    "estadisticas": [
+      "10 de daño de ataque",
+      "100 de vida",
+      "3.5% de robo de vida"
+    ]
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.11.1/item/2003.png?image=q_auto:good,f_webp,w_64,h_64&v=1715147216574",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Escudo de Doran",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.11.1/item/1054.png?image=q_auto:good,f_webp,w_64,h_64&v=1715147216574",
+    "estadisticas": [
+      "110 de vida"
+    ]
+  },
+  {
+    "nombre": "Grebas de berserker",
+    "precio": "1100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.11.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1715147216574",
+    "estadisticas": [
+      "35% de velocidad de ataque",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.11.1/item/3111.png?image=q_auto:good,f_webp,w_64,h_64&v=1715147216574",
+    "estadisticas": [
+      "25 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Hidra voraz",
+    "precio": "3300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.11.1/item/3074.png?image=q_auto:good,f_webp,w_64,h_64&v=1715147216574",
+    "estadisticas": [
+      "70 de daño de ataque",
+      "20 de velocidad de habilidades",
+      "12% de robo de vida"
+    ]
+  },
+  {
+    "nombre": "Bailarín espectral",
+    "precio": "2600",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.11.1/item/3046.png?image=q_auto:good,f_webp,w_64,h_64&v=1715147216574",
+    "estadisticas": [
+      "60% de velocidad de ataque",
+      "25% de probabilidad de impacto crítico",
+      "12% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Filo infinito",
+    "precio": "3400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.11.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1715147216574",
+    "estadisticas": [
+      "80 de daño de ataque",
+      "25% de probabilidad de impacto crítico",
+      "40% de daño de impacto crítico"
+    ]
+  },
+  {
+    "nombre": "Filofugaz de Navori",
+    "precio": "2600",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.11.1/item/6675.png?image=q_auto:good,f_webp,w_64,h_64&v=1715147216574",
+    "estadisticas": [
+      "40% de velocidad de ataque",
+      "25% de probabilidad de impacto crítico",
+      "7% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Hoja del rey arruinado",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.11.1/item/3153.png?image=q_auto:good,f_webp,w_64,h_64&v=1715147216574",
+    "estadisticas": [
+      "55 de daño de ataque",
+      "30% de velocidad de ataque",
+      "10% de robo de vida"
+    ]
+  },
+  {
+    "nombre": "Recuerdos de lord Dominik",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.11.1/item/3036.png?image=q_auto:good,f_webp,w_64,h_64&v=1715147216574",
+    "estadisticas": [
+      "45 de daño de ataque",
+      "40% de penetración de armadura",
+      "25% de probabilidad de impacto crítico"
+    ]
+  }
+]

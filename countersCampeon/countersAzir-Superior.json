@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Zac",
+    "win": "29.41%"
+  },
+  {
+    "nombre": "Jayce",
+    "win": "30.86%"
+  },
+  {
+    "nombre": "Camille",
+    "win": "36.99%"
+  },
+  {
+    "nombre": "Gragas",
+    "win": "37.1%"
+  },
+  {
+    "nombre": "Yone",
+    "win": "38.2%"
+  },
+  {
+    "nombre": "Illaoi",
+    "win": "61.76%"
+  },
+  {
+    "nombre": "Volibear",
+    "win": "57.89%"
+  },
+  {
+    "nombre": "Renekton",
+    "win": "56.32%"
+  },
+  {
+    "nombre": "Vayne",
+    "win": "56.25%"
+  },
+  {
+    "nombre": "Gangplank",
+    "win": "54%"
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Atlas mundial",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3865.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Botas jonias de la lucidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3158.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de velocidad de habilidades",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3111.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "20 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Detracción celestial",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3869.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "75% de regeneración de vida básica",
+      "75% de regeneración de maná básica",
+      "5 de oro cada 10 segundos"
+    ]
+  },
+  {
+    "nombre": "Trineo del solsticio",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3876.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "75% de regeneración de vida básica",
+      "75% de regeneración de maná básica",
+      "5 de oro cada 10 segundos"
+    ]
+  },
+  {
+    "nombre": "Medallón de los Solari de Hierro",
+    "precio": "2200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3190.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "30 de armadura",
+      "30 de resistencia mágica",
+      "10 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Redención",
+    "precio": "2300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3107.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "15 de velocidad de habilidades",
+      "100% de regeneración de maná básica",
+      "15% de poder de curaciones y escudos"
+    ]
+  },
+  {
+    "nombre": "Promesa de caballero",
+    "precio": "2200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3109.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "200 de vida",
+      "40 de armadura",
+      "10 de velocidad de habilidades",
+      "100% de regeneración de vida básica"
+    ]
+  },
+  {
+    "nombre": "Canción de batalla de Shurelya",
+    "precio": "2200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2065.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "50 de poder de habilidad",
+      "15 de velocidad de habilidades",
+      "5% de velocidad de movimiento",
+      "125% de regeneración de maná básica"
+    ]
+  },
+  {
+    "nombre": "Mandato imperial",
+    "precio": "2300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/4005.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de poder de habilidad",
+      "20 de velocidad de habilidades",
+      "125% de regeneración de maná básica"
+    ]
+  }
+]

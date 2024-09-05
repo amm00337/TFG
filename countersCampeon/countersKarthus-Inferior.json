@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Yasuo",
+    "win": "42.22%"
+  },
+  {
+    "nombre": "Sivir",
+    "win": "47.87%"
+  },
+  {
+    "nombre": "Kalista",
+    "win": "48.97%"
+  },
+  {
+    "nombre": "Twitch",
+    "win": "49.19%"
+  },
+  {
+    "nombre": "Brand",
+    "win": "65.67%"
+  },
+  {
+    "nombre": "Ezreal",
+    "win": "57.28%"
+  },
+  {
+    "nombre": "Kogmaw",
+    "win": "56.83%"
+  },
+  {
+    "nombre": "Zeri",
+    "win": "56.64%"
+  },
+  {
+    "nombre": "Aphelios",
+    "win": "56.51%"
+  }
+]

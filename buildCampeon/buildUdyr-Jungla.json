@@ -1,0 +1,100 @@
+[
+  {
+    "nombre": "Cría de Caminabrisas",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1102.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Botas de rapidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3009.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3111.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "20 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Tormento de Liandry",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6653.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "90 de poder de habilidad",
+      "300 de vida"
+    ]
+  },
+  {
+    "nombre": "Coraza del muerto",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3742.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "300 de vida",
+      "45 de armadura",
+      "5% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Jak'Sho, el Proteico",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6665.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "300 de vida",
+      "50 de armadura",
+      "50 de resistencia mágica"
+    ]
+  },
+  {
+    "nombre": "Máscara abisal",
+    "precio": "2500",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/8020.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "300 de vida",
+      "50 de resistencia mágica",
+      "10 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Fuerza de la naturaleza",
+    "precio": "2800",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/4401.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "400 de vida",
+      "55 de resistencia mágica",
+      "5% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Corazón de hielo",
+    "precio": "2500",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3110.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "65 de armadura",
+      "400 de maná",
+      "20 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Sello oscuro",
+    "precio": "350",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1082.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de poder de habilidad",
+      "50 de vida"
+    ]
+  }
+]

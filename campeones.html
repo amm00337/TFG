@@ -1,0 +1,1781 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smart Pick</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <!-- CABECERA -->
+        <header class="container-fluid bg-info d-flex justify-content-center">
+            <div id="iconos" class="fs-5 pt-2 mb-1">
+                <a href=""><i class="bi bi-instagram "></i></a>
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+            </div>
+        </header>
+
+        <!-- MENU -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <span class="text-info fs-4 fw-bold">Smart Pick</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link"  href="index.html">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="campeones.html">Campeones</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="tierlist.html">Tier list</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="seleccionCampeones.html">Selección de campeones</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input id="campoBusqueda" class="form-control me-2" type="text" placeholder="Nombre del campeón">
+                        <div id="sugerencias" class="sugerencias"></div>
+                        <button id="botonBusqueda" class="btn btn-info btn-info-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- SLIDER -->
+        <div class="carousel slide" data-bs-ride="carousel" id="slider">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2500">
+                    <img src="imagenes/imagen1.jpg" class="d-block w-100" alt="imagen1">
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="imagenes/imagen2.jpg" alt="imagen2">
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="imagenes/imagen3.jpg" class="d-block w-100" alt="imagen3">
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="imagenes/imagen4.jpg" alt="imagen4">
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="imagenes/imagen5.jpg" class="d-block w-100" alt="imagen5">
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="imagenes/imagen6.jpg" class="d-block w-100" alt="imagen6">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- INTRO -->
+        <section>
+            <div class="w-50 m-auto text-center" id="intro">
+                <h1>Listado de <div class="text-info">campeones</div></h1>
+            </div>
+        </section>
+
+        <!-- CONTENIDO -->
+        <ul id="listaCampeones">
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Aatrox">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Aatrox.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Aatrox" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Aatrox</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Ahri">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Ahri.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Ahri" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Ahri</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Akali">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Akali.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Akali" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Akali</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Akshan">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Akshan.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Akshan" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Akshan</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Alistar">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Alistar.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Alistar" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Alistar</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Amumu">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Amumu.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Amumu" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Amumu</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Anivia">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Anivia.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Anivia" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Anivia</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Annie">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Annie.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Annie" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Annie</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Aphelios">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Aphelios.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Aphelios" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Aphelios</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Ashe">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Ashe.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Ashe" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Ashe</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Aurelion Sol">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/AurelionSol.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Aurelion Sol" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Aurelion Sol</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Aurora">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.15.1/champion/Aurora.png?image=e_upscale,c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1721451321478"
+                             width="40" height="40" alt="Aurora" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Aurora</div>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Azir">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Azir.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Azir" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Azir</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Bardo">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Bard.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Bard" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Bardo</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Bel'veth">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Belveth.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Bel'veth" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Bel'veth</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Brand">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Brand.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Brand" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Brand</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Braum">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Braum.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Braum" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Braum</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Briar">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Briar.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Briar" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Briar</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Caitlyn">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Caitlyn.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Caitlyn" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Caitlyn</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Camille">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Camille.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Camille" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Camille</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Cassiopeia">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Cassiopeia.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Cassiopeia" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Cassiopeia</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Cho'Gath">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Chogath.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Cho'Gath" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Cho'Gath</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Corki">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Corki.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Corki" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Corki</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Darius">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Darius.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Darius" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Darius</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Diana">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Diana.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Diana" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Diana</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Dr. Mundo">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/DrMundo.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Dr. Mundo" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Dr. Mundo</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Draven">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Draven.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Draven" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Draven</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Ekko">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Ekko.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Ekko" class="imagen-campeon">
+                    </a>
+            <div class="nombre-campeon">Ekko</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Elise">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Elise.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Elise" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Elise</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Evelynn">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Evelynn.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Evelynn" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Evelynn</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Ezreal">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Ezreal.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Ezreal" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Ezreal</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Fiddlesticks">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Fiddlesticks.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Fiddlesticks" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Fiddlesticks</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Fiora">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Fiora.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Fiora" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Fiora</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Fizz">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Fizz.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Fizz" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Fizz</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Galio">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Galio.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Galio" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Galio</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Gangplank">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Gangplank.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Gangplank" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Gangplank</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Garen">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Garen.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Garen" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Garen</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Gnar">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Gnar.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Gnar" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Gnar</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Gragas">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Gragas.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Gragas" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Gragas</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Graves">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Graves.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Graves" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Graves</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Gwen">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Gwen.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Gwen" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Gwen</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Hecarim">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Hecarim.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Hecarim" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Hecarim</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Heimerdinger">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Heimerdinger.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Heimerdinger" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Heimerdinger</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Hwei">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Hwei.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Hwei" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Hwei</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Illaoi">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Illaoi.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Illaoi" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Illaoi</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Irelia">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Irelia.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Irelia" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Irelia</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Ivern">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Ivern.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Ivern" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Ivern</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Janna">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Janna.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Janna" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Janna</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Jarvan IV">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/JarvanIV.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Jarvan IV" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Jarvan IV</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Jax">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Jax.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Jax" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Jax</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Jayce">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Jayce.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Jayce" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Jayce</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Jhin">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Jhin.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Jhin" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Jhin</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Jinx">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Jinx.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Jinx" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Jinx</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=K'Sante">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Ksante.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="K'Sante" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">K'Sante</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Kai'Sa">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Kaisa.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Kai'Sa" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Kai'Sa</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Kalista">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Kalista.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Kalista" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Kalista</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Karma">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Karma.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Karma" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Karma</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Karthus">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Karthus.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Karthus" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Karthus</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Kassadin">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Kassadin.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Kassadin" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Kassadin</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Katarina">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Katarina.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Katarina" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Katarina</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Kayle">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Kayle.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Kayle" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Kayle</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Kayn">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Kayn.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Kayn" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Kayn</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Kennen">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Kennen.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Kennen" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Kennen</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Kha'Zix">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Khazix.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Kha'Zix" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Kha'Zix</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Kindred">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Kindred.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Kindred" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Kindred</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Kled">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Kled.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Kled" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Kled</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Kog'Maw">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Kogmaw.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Kog'Maw" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Kog'Maw</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=LeBlanc">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/LeBlanc.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="LeBlanc" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">LeBlanc</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Lee Sin">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/LeeSin.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Lee Sin" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Lee Sin</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Leona">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Leona.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Leona" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Leona</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Lillia">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Lillia.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Lillia" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Lillia</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Lissandra">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Lissandra.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Lissandra" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Lissandra</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Lucian">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Lucian.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Lucian" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Lucian</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Lulu">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Lulu.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Lulu" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Lulu</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Lux">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Lux.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Lux" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Lux</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Malphite">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Malphite.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Malphite" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Malphite</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Malzahar">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Malzahar.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Malzahar" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Malzahar</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Maokai">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Maokai.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Maokai" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Maokai</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Maestro Yi">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/MasterYi.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Maestro Yi" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Maestro Yi</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Milio">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Milio.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Milio" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Milio</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Miss Fortune">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/MissFortune.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Miss Fortune" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Miss Fortune</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Mordekaiser">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Mordekaiser.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Mordekaiser" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Mordekaiser</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Morgana">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Morgana.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Morgana" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Morgana</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Naafiri">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Naafiri.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Naafiri" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Naafiri</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Nasus">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Nasus.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Nasus" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Nasus</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Nami">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Nami.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Nami" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Nami</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Nautilus">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Nautilus.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Nautilus" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Nautilus</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Neeko">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Neeko.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Neeko" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Neeko</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Nidalee">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Nidalee.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Nidalee" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Nidalee</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Nilah">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Nilah.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Nilah" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Nilah</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Nocturne">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Nocturne.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Nocturne" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Nocturne</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Nunu y Willump">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Nunu.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Nunu y Willump" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Nunu y Willump</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Olaf">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Olaf.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Olaf" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Olaf</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Orianna">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Orianna.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Orianna" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Orianna</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Ornn">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Ornn.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Ornn" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Ornn</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Pantheon">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Pantheon.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Pantheon" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Pantheon</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Poppy">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Poppy.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Poppy" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Poppy</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Pyke">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Pyke.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Pyke" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Pyke</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Qiyana">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Qiyana.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Qiyana" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Qiyana</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Quinn">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Quinn.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Quinn" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Quinn</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Rakan">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Rakan.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Rakan" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Rakan</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Rammus">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Rammus.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Rammus" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Rammus</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Rek'Sai">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Reksai.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Rek'Sai" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Rek'Sai</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Rell">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Rell.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Rell" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Rell</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Renata Glasc">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Renata.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Renata Glasc" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Renata Glasc</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Renekton">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Renekton.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Renekton" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Renekton</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Rengar">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Rengar.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Rengar" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Rengar</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Riven">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Riven.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Riven" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Riven</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Rumble">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Rumble.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Rumble" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Rumble</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Ryze">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Ryze.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Ryze" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Ryze</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Samira">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Samira.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Samira" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Samira</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Sejuani">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Sejuani.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Sejuani" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Sejuani</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Senna">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Senna.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Senna" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Senna</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Seraphine">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Seraphine.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Seraphine" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Seraphine</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Sett">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Sett.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Sett" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Sett</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Shaco">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Shaco.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Shaco" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Shaco</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Shen">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Shen.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Shen" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Shen</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Shyvana">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Shyvana.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Shyvana" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Shyvana</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Singed">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Singed.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Singed" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Singed</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Sion">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Sion.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Sion" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Sion</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Sivir">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Sivir.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Sivir" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Sivir</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Skarner">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Skarner.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Skarner" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Skarner</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Smolder">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Smolder.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Smolder" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Smolder</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Sona">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Sona.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Sona" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Sona</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Soraka">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Soraka.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Soraka" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Soraka</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Swain">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Swain.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Swain" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Swain</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Sylas">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Sylas.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Sylas" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Sylas</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Syndra">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Syndra.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Syndra" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Syndra</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Tahm Kench">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/TahmKench.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Tahm Kench" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Tahm Kench</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Taliyah">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Taliyah.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Taliyah" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Taliyah</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Talon">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Talon.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Talon" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Talon</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Taric">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Taric.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Taric" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Taric</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Teemo">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Teemo.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Teemo" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Teemo</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Thresh">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Thresh.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Thresh" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Thresh</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Tristana">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Tristana.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Tristana" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Tristana</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Trundle">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Trundle.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Trundle" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Trundle</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Tryndamere">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Tryndamere.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Tryndamere" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Tryndamere</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Twisted Fate">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/TwistedFate.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Twisted Fate" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Twisted Fate</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Twitch">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Twitch.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Twitch" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Twitch</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Udyr">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Udyr.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Udyr" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Udyr</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Urgot">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Urgot.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Urgot" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Urgot</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Varus">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Varus.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Varus" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Varus</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Vayne">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Vayne.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Vayne" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Vayne</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Veigar">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Veigar.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Veigar" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Veigar</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Vel'Koz">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Velkoz.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Vel'Koz" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Vel'Koz</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Vex">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Vex.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Vex" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Vex</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Vi">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Vi.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Vi" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Vi</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Viego">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Viego.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Viego" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Viego</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Viktor">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Viktor.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Viktor" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Viktor</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Vladimir">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Vladimir.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Vladimir" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Vladimir</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Volibear">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Volibear.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Volibear" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Volibear</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Warwick">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Warwick.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Warwick" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Warwick</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Wukong">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Monkeyking.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Wukong" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Wukong</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Xayah">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Xayah.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Xayah" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Xayah</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Xerath">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Xerath.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Xerath" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Xerath</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Xin Zhao">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/XinZhao.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Xin Zhao" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Xin Zhao</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Yasuo">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Yasuo.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Yasuo" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Yasuo</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Yone">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Yone.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Yone" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Yone</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Yorick">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Yorick.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Yorick" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Yorick</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Yuumi">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Yuumi.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Yuumi" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Yuumi</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Zac">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Zac.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Zac" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Zac</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Zed">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Zed.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Zed" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Zed</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Zeri">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Zeri.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Zeri" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Zeri</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Ziggs">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Ziggs.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Ziggs" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Ziggs</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Zilean">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Zilean.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Zilean" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Zilean</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Zoe">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Zoe.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Zoe" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Zoe</div>
+                </div>
+            </li>
+
+            <li>
+                <div class="tarjeta">
+                    <a href="campeon.html?nombre=Zyra">
+                        <img src="https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/Zyra.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto,f_webp,w_160,h_160&v=1710914129937"
+                             width="40" height="40" alt="Zyra" class="imagen-campeon">
+                    </a>
+                    <div class="nombre-campeon">Zyra</div>
+                </div>
+            </li>
+        </ul>
+
+        <!-- PIE DE PAGINA -->
+        <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+            <p class="fs-5 px-2 pt-4">Smart Pick &copy; 2024</p>
+        </footer>
+
+        <script src="redireccion.js"></script>
+        <script src="autocompletado.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

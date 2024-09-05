@@ -1,0 +1,93 @@
+[
+  {
+    "nombre": "Anillo de Doran",
+    "precio": "400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1056.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "18 de poder de habilidad",
+      "90 de vida"
+    ]
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Espada de Doran",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1055.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "10 de daño de ataque",
+      "80 de vida",
+      "3% de robo de vida"
+    ]
+  },
+  {
+    "nombre": "Botas de rapidez",
+    "precio": "1000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3009.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de hechicero",
+    "precio": "1100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3020.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de penetración mágica",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Vara de las edades",
+    "precio": "2600",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6657.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "50 de poder de habilidad",
+      "400 de vida",
+      "400 de maná"
+    ]
+  },
+  {
+    "nombre": "Perdición del liche",
+    "precio": "3100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3100.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "100 de poder de habilidad",
+      "8% de velocidad de movimiento",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Cañón de fuego rápido",
+    "precio": "2600",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3094.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "35% de velocidad de ataque",
+      "25% de probabilidad de impacto crítico",
+      "7% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Compañera de Luden",
+    "precio": "2900",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6655.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "95 de poder de habilidad",
+      "600 de maná",
+      "25 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Sello oscuro",
+    "precio": "350",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1082.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "15 de poder de habilidad",
+      "50 de vida"
+    ]
+  }
+]

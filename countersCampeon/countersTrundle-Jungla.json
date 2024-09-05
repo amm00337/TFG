@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Ekko",
+    "win": "34.57%"
+  },
+  {
+    "nombre": "Nunu",
+    "win": "42.19%"
+  },
+  {
+    "nombre": "Graves",
+    "win": "42.5%"
+  },
+  {
+    "nombre": "Hecarim",
+    "win": "42.53%"
+  },
+  {
+    "nombre": "Sylas",
+    "win": "42.86%"
+  },
+  {
+    "nombre": "Rengar",
+    "win": "60.98%"
+  },
+  {
+    "nombre": "Warwick",
+    "win": "59.79%"
+  },
+  {
+    "nombre": "Xinzhao",
+    "win": "56.91%"
+  },
+  {
+    "nombre": "Nocturne",
+    "win": "56.64%"
+  },
+  {
+    "nombre": "Evelynn",
+    "win": "52.94%"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Warwick",
+    "win": "35%"
+  },
+  {
+    "nombre": "Zac",
+    "win": "36.36%"
+  },
+  {
+    "nombre": "Nasus",
+    "win": "42%"
+  },
+  {
+    "nombre": "Tahmkench",
+    "win": "42.86%"
+  },
+  {
+    "nombre": "Teemo",
+    "win": "43.75%"
+  },
+  {
+    "nombre": "Vayne",
+    "win": "66.67%"
+  },
+  {
+    "nombre": "Twistedfate",
+    "win": "65.79%"
+  },
+  {
+    "nombre": "Rumble",
+    "win": "61.8%"
+  },
+  {
+    "nombre": "Trundle",
+    "win": "60%"
+  },
+  {
+    "nombre": "Gangplank",
+    "win": "59.7%"
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "nombre": "Espada de Doran",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.17.1/item/1055.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "10 de daño de ataque",
+      "80 de vida",
+      "3% de robo de vida"
+    ]
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.17.1/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Escudo de Doran",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.17.1/item/1054.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "110 de vida"
+    ]
+  },
+  {
+    "nombre": "Botas blindadas",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.17.1/item/3047.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "25 de armadura",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas de mercurio",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.17.1/item/3111.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "20 de resistencia mágica",
+      "45 de velocidad de movimiento",
+      "30% de tenacidad"
+    ]
+  },
+  {
+    "nombre": "Fuerza de trinidad",
+    "precio": "3333",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.17.1/item/3078.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "45 de daño de ataque",
+      "33% de velocidad de ataque",
+      "300 de vida",
+      "20 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Hidra profana",
+    "precio": "3300",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.17.1/item/6698.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de daño de ataque",
+      "18 de letalidad",
+      "20 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Firmamento desgarrado",
+    "precio": "3100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.17.1/item/6610.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "45 de daño de ataque",
+      "450 de vida",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Cuchilla negra",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.17.1/item/3071.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "55 de daño de ataque",
+      "400 de vida",
+      "20 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Eclipse",
+    "precio": "2800",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.17.1/item/6692.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "70 de daño de ataque",
+      "15 de velocidad de habilidades"
+    ]
+  },
+  {
+    "nombre": "Colmillo de serpiente",
+    "precio": "2500",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/14.17.1/item/6695.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "55 de daño de ataque",
+      "15 de letalidad"
+    ]
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "nombre": "Espada de Doran",
+    "precio": "450",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1055.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "10 de daño de ataque",
+      "80 de vida",
+      "3% de robo de vida"
+    ]
+  },
+  {
+    "nombre": "Poción de vida",
+    "precio": "50",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/2003.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": []
+  },
+  {
+    "nombre": "Espada larga",
+    "precio": "350",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/1036.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "10 de daño de ataque"
+    ]
+  },
+  {
+    "nombre": "Grebas de berserker",
+    "precio": "1100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3006.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "30% de velocidad de ataque",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Botas blindadas",
+    "precio": "1200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3047.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "25 de armadura",
+      "45 de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Verdugo de krakens",
+    "precio": "3100",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6672.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "50 de daño de ataque",
+      "40% de velocidad de ataque",
+      "5% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Filofugaz de Navori",
+    "precio": "2600",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6675.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "40% de velocidad de ataque",
+      "25% de probabilidad de impacto crítico",
+      "7% de velocidad de movimiento"
+    ]
+  },
+  {
+    "nombre": "Filo infinito",
+    "precio": "3400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3031.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "80 de daño de ataque",
+      "25% de probabilidad de impacto crítico",
+      "40% de daño de impacto crítico"
+    ]
+  },
+  {
+    "nombre": "Recuerdos de lord Dominik",
+    "precio": "3000",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3036.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "45 de daño de ataque",
+      "35% de penetración de armadura",
+      "25% de probabilidad de impacto crítico"
+    ]
+  },
+  {
+    "nombre": "Sanguinaria",
+    "precio": "3400",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/3072.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "80 de daño de ataque",
+      "18% de robo de vida"
+    ]
+  },
+  {
+    "nombre": "Recaudadora",
+    "precio": "3200",
+    "imagen": "https://opgg-static.akamaized.net/meta/images/lol/latest/item/6676.png?image=e_upscale,q_auto:good,f_webp,w_64,h_64&v=1724034092925",
+    "estadisticas": [
+      "60 de daño de ataque",
+      "12 de letalidad",
+      "25% de probabilidad de impacto crítico"
+    ]
+  }
+]
