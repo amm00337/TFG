@@ -12,4 +12,4 @@ Smart Pick es una aplicación web diseñada para proporcionar a los usuarios inf
 ## Instalación
 1. Clona el repositorio o descarga el archivo ZIP del proyecto desde GitHub.
 2. Abrir el proyecto en un IDE como IntelliJ.
-3. Ejecutar el archivo index.html en tu navegador web preferido.
+3. Ejecutar el archivo `index.html` en tu navegador web preferido.
