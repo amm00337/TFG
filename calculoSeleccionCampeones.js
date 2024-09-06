@@ -240,13 +240,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     const PIS = {
                         winRate: Math.max(...ponderados.map(c => c.winRate)),
                         pickRate: Math.max(...ponderados.map(c => c.pickRate)),
-                        banRate: Math.min(...ponderados.map(c => c.banRate)) // Cambiado para considerar que un menor BanRate es mejor
+                        banRate: Math.min(...ponderados.map(c => c.banRate))
                     };
 
                     const NIS = {
                         winRate: Math.min(...ponderados.map(c => c.winRate)),
                         pickRate: Math.min(...ponderados.map(c => c.pickRate)),
-                        banRate: Math.max(...ponderados.map(c => c.banRate)) // Cambiado para considerar que un mayor BanRate es peor
+                        banRate: Math.max(...ponderados.map(c => c.banRate))
                     };
 
                     const distancias = ponderados.map(campeon => {
@@ -360,13 +360,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const PIS = {
             winRate: Math.max(...ponderados.map(c => c.winRate)),
             pickRate: Math.max(...ponderados.map(c => c.pickRate)),
-            banRate: Math.min(...ponderados.map(c => c.banRate)) // Cambiado para considerar que un menor BanRate es mejor
+            banRate: Math.min(...ponderados.map(c => c.banRate))
         };
 
         const NIS = {
             winRate: Math.min(...ponderados.map(c => c.winRate)),
             pickRate: Math.min(...ponderados.map(c => c.pickRate)),
-            banRate: Math.max(...ponderados.map(c => c.banRate)) // Cambiado para considerar que un mayor BanRate es peor
+            banRate: Math.max(...ponderados.map(c => c.banRate))
         };
 
         const distancias = ponderados.map(campeon => {
