@@ -22,11 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
     campoBusqueda.addEventListener('input', () => {
-        const searchQuery = campoBusqueda.value.toLowerCase();
+        const textoBusqueda = campoBusqueda.value.toLowerCase();
         dropdown.innerHTML = '';
 
         campeones.forEach(campeon => {
-            if (campeon.nombre.toLowerCase().includes(searchQuery)) {
+            if (campeon.nombre.toLowerCase().includes(textoBusqueda)) {
                 const item = document.createElement('div');
                 item.innerHTML = `<img src="${campeon.imagen}" alt="${campeon.nombre}"><span>${campeon.nombre} - ${campeon.posicion}</span>`;
 
@@ -49,12 +49,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     campoRival.addEventListener('input', () => {
-        const searchQuery = campoRival.value.toLowerCase();
+        const textoBusqueda = campoRival.value.toLowerCase();
         dropdownRival.innerHTML = '';
 
         const nombresUnicos = new Set();
         const resultados = campeones.filter(campeon => {
-            if (!nombresUnicos.has(campeon.nombre.toLowerCase()) && campeon.nombre.toLowerCase().includes(searchQuery)) {
+            if (!nombresUnicos.has(campeon.nombre.toLowerCase()) && campeon.nombre.toLowerCase().includes(textoBusqueda)) {
                 nombresUnicos.add(campeon.nombre.toLowerCase());
                 return true;
             }
@@ -171,8 +171,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const posicionRival = document.getElementById('posicionRival').value;
         const rutaArchivo = `./countersCampeon/counters${nombreRival}-${posicionRival}.json`;
 
-        console.log("Ruta del archivo de counters:", rutaArchivo);
-
         fetch(rutaArchivo)
             .then(response => response.json())
             .then(counters => {
@@ -197,22 +195,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log("Campeones que son counters del rival:", campeonesCounter);
 
                 if (campeonesCounter.length > 0) {
-                    console.log("SELECCIONADOSDATA");
                     campeonesCounter.forEach(campeon => {
                         for(let criterio in sumaCuadrados){
                             const valor = convertirPorcentajeANumero(campeon[criterio]);
                             sumaCuadrados[criterio] += Math.pow(valor,2);
                         }
-                        console.log(campeon.nombre + "   WinRate:" + campeon.winRate + "   PickRate:" + campeon.pickRate + "   BanRate:" + campeon.banRate);
+                        console.log(campeon.nombre + "   win rate:" + campeon.winRate + "   pick rate:" + campeon.pickRate + "   ban rate:" + campeon.banRate);
                     });
 
-                    console.log("NORMALIZADOS");
+                    console.log("VALORES NORMALIZADOS");
                     const normalizados = campeonesCounter.map(campeon => {
                         let actual = {};
                         for(let criterio in sumaCuadrados){
                             const valor = convertirPorcentajeANumero(campeon[criterio]);
                             actual[criterio] = valor / Math.sqrt(sumaCuadrados[criterio]);
-                            console.log(campeon.nombre + "  " + criterio + "  " + actual[criterio]);
+                            console.log(campeon.nombre + " " + criterio + ": " + actual[criterio]);
                         }
 
                         actual['nombre'] = campeon.nombre;
@@ -222,12 +219,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         return actual;
                     });
 
-                    console.log("PONDERADOS");
+                    console.log("VALORES PONDERADOS");
                     const ponderados = normalizados.map(campeon => {
                         let actual = {};
                         for(let criterio in pesos){
                             actual[criterio] = campeon[criterio] * pesos[criterio];
-                            console.log(campeon.nombre + "  " + criterio + "  " + actual[criterio]);
+                            console.log(campeon.nombre + " " + criterio + ": " + actual[criterio]);
                         }
 
                         actual['nombre'] = campeon.nombre;
@@ -273,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     mejorCampeon = distancias.reduce((max, campeon) => {
                         const puntuacion = campeon.NIS / (campeon.PIS + campeon.NIS);
                         const puntuacionMaxima = max.NIS / (max.PIS + max.NIS);
-                        console.log("Puntuacion " + campeon.nombre + ": " + puntuacion + "     PUNTUACION MAXIMA: " + puntuacionMaxima);
+                        console.log("Puntuacion " + campeon.nombre + ": " + puntuacion);
                         return puntuacion > puntuacionMaxima ? campeon : max;
                     }, distancias[0]);
 
@@ -319,39 +316,40 @@ document.addEventListener('DOMContentLoaded', () => {
             banRate: 0
         };
 
-        console.log("SELECCIONADOSDATA");
         seleccionadosData.forEach(campeon => {
             for(let criterio in sumaCuadrados){
                 const valor = convertirPorcentajeANumero(campeon[criterio]);
                 sumaCuadrados[criterio] += Math.pow(valor,2);
             }
-            console.log(campeon.nombre + "   WinRate:" + campeon.winRate + "   PickRate:" + campeon.pickRate + "   BanRate:" + campeon.banRate);
+            console.log(campeon.nombre + "   win rate:" + campeon.winRate + "   pick rate:" + campeon.pickRate + "   ban rate:" + campeon.banRate);
         });
 
-        console.log("NORMALIZADOS");
+        console.log("VALORES NORMALIZADOS");
         const normalizados = seleccionadosData.map(campeon => {
             let actual = {};
             for(let criterio in sumaCuadrados){
                 const valor = convertirPorcentajeANumero(campeon[criterio]);
                 actual[criterio] = valor / Math.sqrt(sumaCuadrados[criterio]);
-                console.log(campeon.nombre + "  " + criterio + "  " + actual[criterio]);
+                console.log(campeon.nombre + " " + criterio + ": " + actual[criterio]);
             }
 
             actual['nombre'] = campeon.nombre;
+            actual['posicion'] = campeon.posicion;
             actual['imagen'] = campeon.imagen;
 
             return actual;
         });
 
-        console.log("PONDERADOS");
+        console.log("VALORES PONDERADOS");
         const ponderados = normalizados.map(campeon => {
             let actual = {};
             for(let criterio in pesos){
                 actual[criterio] = campeon[criterio] * pesos[criterio];
-                console.log(campeon.nombre + "  " + criterio + "  " + actual[criterio]);
+                console.log(campeon.nombre + " " + criterio + ": " + actual[criterio]);
             }
 
             actual['nombre'] = campeon.nombre;
+            actual['posicion'] = campeon.posicion;
             actual['imagen'] = campeon.imagen;
 
             return actual;
@@ -384,6 +382,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 pickRate : campeon.pickRate,
                 banRate : campeon.banRate,
                 imagen : campeon.imagen,
+                posicion : campeon.posicion,
                 PIS : Math.sqrt(distanciaPIS),
                 NIS : Math.sqrt(distanciaNIS)
             };
@@ -392,15 +391,17 @@ document.addEventListener('DOMContentLoaded', () => {
         mejorCampeon = distancias.reduce((max, campeon) => {
             const puntuacion = campeon.NIS / (campeon.PIS + campeon.NIS);
             const puntuacionMaxima = max.NIS / (max.PIS + max.NIS);
-            console.log("Puntuacion " + campeon.nombre + ": " + puntuacion + "     PUNTUACION MAXIMA: " + puntuacionMaxima);
+            console.log("Puntuacion " + campeon.nombre + ": " + puntuacion);
             return puntuacion > puntuacionMaxima ? campeon : max;
         }, distancias[0]);
+
+        console.log("Mejor campeón encontrado:", mejorCampeon);
 
         resultadoMejorCampeon.innerHTML = `
             <div>
                 <img src="${mejorCampeon.imagen}" alt="${mejorCampeon.nombre}">
                 <div>
-                    <strong>${mejorCampeon.nombre}</strong><br>
+                    <strong>${mejorCampeon.nombre} - ${mejorCampeon.posicion}</strong><br>
                 </div>
             </div>
         `;
